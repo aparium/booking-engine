@@ -1,8 +1,8 @@
 
 /*
 <!-- 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/css/google-fonts.css">
-<link rel="stylesheet" type="text/css" href="https://revrebel.github.io/revrebel.io/css/google-fonts.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-fonts.css">
+<link rel="stylesheet" type="text/css" href="https://aparium.github.io/aparium/fonts/ahg-fonts.css">
 -->
 */
 
@@ -42,168 +42,164 @@
 /* FONTS */
 /* ************************** */
 
-/* ************************** */
-/* NOTO EMOJI */
-/* ************************** */
 
 
-@media screen {
+  /* ************************** */
+  /* Freight-Big */
+  /* ************************** */
 
+  /* freight-big-pro-300 - latin */
   @font-face {
     font-display: swap;
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Noto Emoji';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.svg#Noto-Emoji') format('svg');
-  }
-
-  /* ************************** */
-  /* Sarabun */
-  /* ************************** */
-
-  /* sarabun-300 - latin */
-  @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Sarabun';
+    font-family: 'freight-big-pro';
     font-style: normal;
     font-weight: 300;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.svg#Sarabun') format('svg');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-light.eot');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-light.eot?#iefix') format('embedded-opentype'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-light.woff2') format('woff2'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-light.woff') format('woff'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-light.ttf') format('truetype'),
   }
 
-  /* sarabun-regular - latin */
+  /* freight-big-pro-400 - latin */
   @font-face {
     font-display: swap;
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Sarabun';
+    font-family: 'freight-big-pro';
     font-style: normal;
     font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.svg#Sarabun') format('svg');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-book.eot');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-book.eot?#iefix') format('embedded-opentype'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-book.woff2') format('woff2'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-book.woff') format('woff'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-book.ttf') format('truetype'),
   }
 
-  /* ************************** */
-  /* Khand */
-  /* ************************** */
-
-  /* khand-700 - latin */
+    /* freight-big-pro-500 - latin */
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'freight-big-pro';
+      font-style: normal;
+      font-weight: 500;
+      src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-medium.eot');
+      src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-medium.eot?#iefix') format('embedded-opentype'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-medium.woff2') format('woff2'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-medium.woff') format('woff'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-medium.ttf') format('truetype'),
+    }
+  
+  
+  /* freight-big-pro-600 - latin */
   @font-face {
     font-display: swap;
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Khand';
+    font-family: 'freight-big-pro';
     font-style: normal;
-    font-weight: 700;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.svg#Khand') format('svg');
+    font-weight: 600;
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.eot');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.eot?#iefix') format('embedded-opentype'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.woff2') format('woff2'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.woff') format('woff'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.ttf') format('truetype'),
   }
 
-  /* khand-500 - latin */
+
+
+    /* freight-big-pro-700 - latin */
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'freight-big-pro';
+      font-style: normal;
+      font-weight: 700;
+      src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-bold.eot');
+      src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-bold.eot?#iefix') format('embedded-opentype'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-bold.woff2') format('woff2'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-bold.woff') format('woff'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-big-pro-bold.ttf') format('truetype'),
+    }
+
+
+
+  /* ************************** */
+  /* Freight-Sans */
+  /* ************************** */
+
+  /* freight-sans-pro-300 - latin */
   @font-face {
     font-display: swap;
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Khand';
+    font-family: 'freight-sans-pro';
+    font-style: normal;
+    font-weight: 200;
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-light.eot');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-light.eot?#iefix') format('embedded-opentype'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-light.woff2') format('woff2'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-light.woff') format('woff'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-light.ttf') format('truetype'),
+  }
+
+  /* freight-sans-pro-400 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'freight-sans-pro';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-book.eot');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-book.eot?#iefix') format('embedded-opentype'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-book.woff2') format('woff2'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-book.woff') format('woff'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-book.ttf') format('truetype'),
+  }
+
+    /* freight-sans-pro-500 - latin */
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'freight-sans-pro';
+      font-style: normal;
+      font-weight: 400;
+      src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-medium.eot');
+      src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-medium.eot?#iefix') format('embedded-opentype'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-medium.woff2') format('woff2'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-medium.woff') format('woff'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-medium.ttf') format('truetype'),
+    }
+  
+  
+  /* freight-sans-pro-600 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'freight-sans-pro';
     font-style: normal;
     font-weight: 500;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.svg#Khand') format('svg');
-  }
-
-  /* ************************** */
-  /* Fira Code */
-  /* ************************** */
-
-  /* fira-code-300 - latin */
-  @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Fira Code';
-    font-style: normal;
-    font-weight: 300;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.svg#FiraCode') format('svg');
-  }
-
-  /* fira-code-400 - latin */
-  @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Fira Code';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.svg#FiraCode') format('svg');
-  }
-
-  /* ************************** */
-  /* Barlow */
-  /* ************************** */
-
-  /* barlow-regular - latin */
-  @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 900;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.svg#FiraCode') format('svg');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-semibold.eot');
+    src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-semibold.eot?#iefix') format('embedded-opentype'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-semibold.woff2') format('woff2'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-semibold.woff') format('woff'),
+      url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-semibold.ttf') format('truetype'),
   }
 
 
-  /* ************************** */
-  /* Pacifico */
-  /* ************************** */
 
-  /* pacifico-regular - latin */
-  @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.eot');
-    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.svg#FiraCode') format('svg');
-  }
-}
+    /* freight-sans-pro-700 - latin */
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'freight-sans-pro';
+      font-style: normal;
+      font-weight: 700;
+      src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-black.eot');
+      src: url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-black.eot?#iefix') format('embedded-opentype'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-bold.woff2') format('woff2'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-bold.woff') format('woff'),
+        url('https://aparium.github.io/aparium/fonts/freight-sans-pro/freight-sans-pro-bold.ttf') format('truetype'),
+    }
+
 
 * {
   box-sizing: border-box;
@@ -233,103 +229,70 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.courier-prime-regular {
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.courier-prime-bold {
-  font-family: "Courier Prime", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
 
 
-/* 
-<uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 300 to 700 
-*/
+/* Freight-Big */
 
-.noto-emoji-<uniquifier> {
-  font-family: "Noto Emoji", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "slnt"0;
-}
-
-.fira-code-<uniquifier> {
-  font-family: "Fira Code", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.barlow-bold {
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.barlow-extrabold {
-  font-family: "Barlow", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.barlow-black {
-  font-family: "Barlow", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.sarabun-light {
-  font-family: "Sarabun", sans-serif;
+.freight-big-pro-light {
+  font-family: "freight-big-pro", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.sarabun-regular {
-  font-family: "Sarabun", sans-serif;
+.freight-big-pro-book {
+  font-family: "freight-big-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.sarabun-medium {
-  font-family: "Sarabun", sans-serif;
+.freight-big-pro-mediumn {
+  font-family: "freight-big-pro", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
-.khand-medium {
-  font-family: "Khand", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.khand-semibold {
-  font-family: "Khand", sans-serif;
+.freight-big-pro-semibold {
+  font-family: "freight-big-pro", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
-.khand-bold {
-  font-family: "Khand", sans-serif;
+.freight-big-pro-bold {
+  font-family: "freight-big-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Freight-Sans */
+
+.freight-sans-pro-light {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.freight-sans-pro-book {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.freight-sans-pro-mediumn {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.freight-sans-pro-semibold {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.freight-sans-pro-bold {
+  font-family: "freight-sans-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
