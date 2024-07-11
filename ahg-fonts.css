@@ -1,0 +1,335 @@
+
+/*
+<!-- 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/css/google-fonts.css">
+<link rel="stylesheet" type="text/css" href="https://revrebel.github.io/revrebel.io/css/google-fonts.css">
+-->
+*/
+
+
+/**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+|    AHG |   APARIUM
+|    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+*/
+
+<head>
+
+<link 
+  rel="preconnect
+  href="https://fonts.googleapis.com">
+
+<link 
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin>
+  
+  <link 
+  href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=Courier+Prime:wght@400;700&family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Khand:wght@500;600;700&family=Noto+Emoji:wght@300..700&family=Pacifico&family=Sarabun:wght@300;400;500&display=swap"
+  type="text/css"
+  rel="stylesheet">
+  
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?familyKhand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;700&display=swap');
+
+/* ************************** */
+/* FONTS */
+/* ************************** */
+
+/* ************************** */
+/* NOTO EMOJI */
+/* ************************** */
+
+
+@media screen {
+
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Emoji';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/noto-emoji/noto-emoji-300.svg#Noto-Emoji') format('svg');
+  }
+
+  /* ************************** */
+  /* Sarabun */
+  /* ************************** */
+
+  /* sarabun-300 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-300.svg#Sarabun') format('svg');
+  }
+
+  /* sarabun-regular - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/sarabun/sarabun-regular.svg#Sarabun') format('svg');
+  }
+
+  /* ************************** */
+  /* Khand */
+  /* ************************** */
+
+  /* khand-700 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-700.svg#Khand') format('svg');
+  }
+
+  /* khand-500 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/khand/khand-500.svg#Khand') format('svg');
+  }
+
+  /* ************************** */
+  /* Fira Code */
+  /* ************************** */
+
+  /* fira-code-300 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-300.svg#FiraCode') format('svg');
+  }
+
+  /* fira-code-400 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/fira-code/fira-code-400.svg#FiraCode') format('svg');
+  }
+
+  /* ************************** */
+  /* Barlow */
+  /* ************************** */
+
+  /* barlow-regular - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/barlow/barlow-900.svg#FiraCode') format('svg');
+  }
+
+
+  /* ************************** */
+  /* Pacifico */
+  /* ************************** */
+
+  /* pacifico-regular - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/REVREBEL/revrebel.io/fonts/pacifico/pacifico-regular.svg#FiraCode') format('svg');
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
+
+.desktop_hide,
+.desktop_hide table {
+  mso-hide: all;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.footer-image_block img+div {
+  display: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 700 
+*/
+
+.noto-emoji-<uniquifier> {
+  font-family: "Noto Emoji", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt"0;
+}
+
+.fira-code-<uniquifier> {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sarabun-light {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sarabun-regular {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sarabun-medium {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.khand-medium {
+  font-family: "Khand", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.khand-semibold {
+  font-family: "Khand", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.khand-bold {
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
