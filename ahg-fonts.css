@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="https://aparium.github.io/aparium/fonts/ahg-fonts.css">
 -->
 */
-
+https://cdn.jsdelivr.net/gh/aparium/booking-engine/social-icons/twitter.svg
 
 /**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 |    AHG |   APARIUM
@@ -32,11 +32,11 @@
     font-family: 'freight-big-pro';
     font-style: normal;
     font-weight: 300;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-light.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-light.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-light.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-light.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-light.ttf') format('truetype'),
+    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-light.eot');
+    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-light.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-light.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-light.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-light.ttf') format('truetype'),
   }
 
   /* freight-big-pro-400 - latin */
@@ -46,11 +46,11 @@
     font-family: 'freight-big-pro';
     font-style: normal;
     font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-book.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-book.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-book.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-book.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-book.ttf') format('truetype'),
+    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-book.eot');
+    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-book.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-book.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-book.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-book.ttf') format('truetype'),
   }
 
     /* freight-big-pro-500 - latin */
@@ -60,11 +60,11 @@
       font-family: 'freight-big-pro';
       font-style: normal;
       font-weight: 500;
-      src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-medium.eot');
-      src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-medium.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-medium.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-medium.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-medium.ttf') format('truetype'),
+      src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-medium.eot');
+      src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-medium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-medium.ttf') format('truetype'),
     }
   
   
@@ -75,11 +75,11 @@
     font-family: 'freight-big-pro';
     font-style: normal;
     font-weight: 600;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-semibold.ttf') format('truetype'),
+    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-semibold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-semibold.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-semibold.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-semibold.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-semibold.ttf') format('truetype'),
   }
 
 
@@ -91,11 +91,11 @@
       font-family: 'freight-big-pro';
       font-style: normal;
       font-weight: 700;
-      src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-bold.eot');
-      src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-bold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-bold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-bold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans-pro/freight-big-pro-bold.ttf') format('truetype'),
+      src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-bold.eot');
+      src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big-pro/freight-big-pro-bold.ttf') format('truetype'),
     }
 
 
