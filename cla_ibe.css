@@ -1,0 +1,76 @@
+@font-face{font-family:OpenSans;font-style:normal;font-weight:normal;src:local(Palatino),local(Cambria)}
+body,input,select,textarea,button,.ws-button,.ws-cart-cancel{font-family:cambria,serif}
+h1,.ws-results hgroup h1,.ws-item-title h1,.ws-results hgroup h3,.ws-results .ws-related-data h3,#hdWsCart,.ws-full-details h3{font-family:"Palatino Linotype",palatino,serif}
+#ws-utility,#links,#contact,#contact i{font-family:"DIN Condensed",sans-serif-condensed,"Gill Sans MT Condensed",impact,sans-serif}
+.WsIbeDetails #MyViewGrp_txMoreNoTabber,.WsIbeDetails #MyViewGrp_txMore{display:none}
+header,#soc a{text-align:center}
+footer .right{text-align:right}
+a,span,i,img{transition:all .3s linear 0s}
+footer .right a,footer .left a,#links a{color:#ede7e2}
+#links a{margin:0 20px;border-bottom:1px solid transparent;font-size:14px}
+#links a,#links span{display:inline-block}
+#links a:hover{border-color:#ede7e2}
+footer .right a,footer .left a:hover{text-decoration:underline}
+footer .right a:hover{text-decoration:underline overline}
+#ws-utility a{font-size:17px;text-transform:uppercase;display:inline-block;letter-spacing:2px;color:#722f14;border-bottom:1px solid transparent;padding:5px 20px}
+#MyHeading_dvMyResv a,#ws-cart a{background-color:#722f14;color:#ede7e2;font-size:14px;padding:13px 20px;margin-left:20px;position:relative;top:-5px}
+#ws-utility a:hover{border-color:#722f14}
+#ws-utility,#footer,#footercontent{border:0 none}
+#ws-utility,#logo{position:absolute;left:50%}
+#logo{margin-left:-650px;top:9px}
+#ws-utility{z-index:999;top:40px;margin-left:-280px}
+#ws-utility .ws-item{margin:0}
+#header,#footer,#ws-header .ws-inner{width:100%;max-width:1300px}
+#menu a{display:block;font-size:0}
+#trig{font-size:0;font-family:wsicons;position:absolute;left:20px}
+#menu{text-align:left;padding:0 20px}
+.ws-nav-journey{text-transform:uppercase}
+.ws-rooms .ws-results hgroup h3:after,.ws-add-ons .ws-results hgroup h3:after{display:none}
+.ws-element,span.customSelect{border-radius:0}
+#ws-header .ws-inner{padding:0}
+#fmMain,#aform{padding:10px 10px 0}
+.WsIbeDetails #ws-main .ws-itinerary section{left:0}
+@media screen{
+.ws-featured article h3,.ws-results article.ws-open a h3,.ws-packages-rates article h3,.ws-results hgroup h3,.ws-results article.ws-open a,.ws-results article.ws-open a h3{background-color:#3d5261}
+.ws-featured article h3,.ws-packages-rates article h3,.ws-results article a h3{color:#fff}
+.ws-itinerary .ws-inner,#ws-main #dvFilterSort .ws-inner,.ws-filter-sort-items a.ws-tag{background-color:#3d5261;color:#fff;border-radius:0}
+.ws-itinerary .ws-element{border:1px solid #fff}
+.ws-itinerary .ws-element label,.ws-itinerary .ws-element-wrapper label,#txOccupants,#spCheckIn,#spCheckOut{color:#fff}
+.ws-filter-sort-items a.ws-button-small.ws-active{background-color:#3d5261;border:1px solid #fff;border:1px solid #fff;border-radius:0}
+.ws-related-data{background-color:#ede7e2}
+.ws-results article.ws-open a h1:after{box-shadow:-75px 0 50px -35px #3d5261 inset}
+.ws-results article.ws-open a:after{border-top:9px solid #3d5261}
+header{background-color:#ede7e2;min-height:120px}
+#soc{margin:30px 0}
+#soc a{display:inline-block;width:32px;height:32px;border-radius:50%;padding-top:6px;margin:9px;background-size:auto 20px}
+#soc a:hover{background-color:#ede7e2;fill:#3d5261}
+#soc img:hover{opacity:0}
+#row{max-width:1200px;width:100%;margin:0 auto}
+footer{padding:50px 0;color:#ede7e2;background:#3d5261 url(//cdn.shrglobal.com/CrsMedia/P16704/bbe/Clayton_Pattern_Extended.png) scroll repeat-x 0 bottom;font-size:14px;line-height:2em}
+.col{display:inline-block;width:20%}
+.col:last-child{text-align:right}
+#links{width:59%;text-align:center}
+#contact{padding:9px 0;border-top:1px solid transparent;border-bottom:1px solid transparent}
+#contact:hover{border-color:#ede7e2;text-decoration:none}
+#contact:hover i{margin-left:5px}
+}
+@media screen and (max-width:1616px){#ws-utility a,#left a{margin:0 9px;}#ws-utility{right:0;left:auto;margin:0}}
+@media screen and (max-width:1360px){#logo{margin:0;left:20px}}
+@media screen and (max-width:1200px){footer,footer .left,footer .right{padding:20px;}footer{background-size:1210px auto}}
+@media screen and (max-width:1184px){
+#left a,#ws-utility .con{font-size:0;padding:0}
+#ws-user-nav>div:first-child{width:0}
+.open #menu a{font-size:16px}
+#ws-utility,#logo{position:static}
+#ws-header .ws-inner{padding:0}
+#ws-utility a, #left a{margin:0 20px}
+#trig{font-size:20px}
+header{padding:0}
+.open #menu a{font-size:27px}
+footer .left,footer .right,.col,#links,.col:last-child{width:100%;float:none;text-align:center}
+#row{width:100%;padding:20px}
+#logo{margin-left:20px}
+}
+@media screen and (max-width:480px){#ws-user-nav,#ws-cart,.ws-inner .ws-item{float:none;display:block}}
+@media screen and (min-width:1025px){body,h1,.ws-button,.ws-cart-cancel,.ws-results hgroup h1,.ws-item-title h1,.ws-results hgroup h3,.ws-results .ws-related-data h3,#hdWsCart,.ws-full-details h3{font-family:Taviraj,"Palatino Linotype",palatino,serif}#ws-utility,#links,#contact{font-family:"Formula Condensed","DIN Condensed",impact,sans-serif}}
+@media print{#ws-utility,#links,.ws-nav-journey,.ws-cart-details .ws-open-close,#MyFooter_dvPrivacyPolicy,#MyFooter_dvPrivacyManage{display:none}fieldset{border:0 none}}
