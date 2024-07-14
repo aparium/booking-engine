@@ -286,6 +286,28 @@ p .ws-persuade {
   background-color: #fff;
   color: #000!important
 }
+.ws-price-from{
+    font-family: freight-sans-pro,sans-serif!important;
+    text-transform: uppercase!important;
+    font-weight: 300;
+    color: #000!important;
+    font-style: normal;
+    display: block;
+    padding: 0px 15px;
+}
+.ws-number{
+    font-family: freight-sans-pro,sans-serif!important;
+    font-size: 2.5rem!important;
+    font-weight: 500;
+    color: #000!important;
+    font-style: normal;
+    display: block;
+    padding: 0px 15px;
+}
+.ws-results article a span.ws-button-small {
+    float: right;
+    margin-top: 1rem ! Important;
+}
 .ws-price-from .ws-night-block {
   margin-left: .3635em;
   margin-top: 0;
@@ -369,6 +391,8 @@ footer {
   padding: 1rem 1rem!important;
   height: 4rem
 }
+
+.ws-list-action-disable,
 .ws-header-two .ws-list-action .ws-button {
   font-family: freight-sans-pro,sans-serif;
   font-size: .75em;
@@ -543,13 +567,7 @@ input[name=ws-occupants] {
 .ws-related-data.ws-show-this {
   border-color: #000
 }
-.ws-number,
-.ws-price-from {
-  font-family: freight-sans-pro,sans-serif!important;
-  font-weight: 500!important;
-  font-style: normal;
-  color: #000!important
-}
+
 .ws-night-block {
   display: block;
   margin-top: 0;
@@ -562,10 +580,20 @@ input[name=ws-occupants] {
 .ws-drawer-item .ws-room-rate-name {
   text-transform: capitalize!important
 }
+#txHotelName2,
 .wsName {
   font-size: 42px!important;
   text-transform: capitalize!important
 }
+
+#hdAvailRooms,
+#hdAvailRates{
+    font-size: 48px!important;
+    font-weight: 500!important;
+    font-style: normal;
+    color: #000!important;
+}
+
 .ws-property-phone {
   color: #fff!important
 }
@@ -590,6 +618,21 @@ input[name=ws-occupants] {
 .ws-user-prompt {
   margin: 0 10px 3em
 }
+.custom-section {
+    display: block !important;
+max-width: 920px!important;
+margin: 0 auto;
+border-top: 1px solid #ddd;
+}
+.custom-section-line {
+    display: table;
+    display: block !important;
+    padding-bottom: 1.429em;
+    border-top: 1px solid #ddd;
+}
+ws-pagewidth-wide
+
+
 #butt span {
   width: 44px;
   height: 2px;
