@@ -10602,3 +10602,37 @@ img.mfp-img {
     right: 0;
     padding-top: 0
 }
+
+
+
+.ws-list-action-disable, .ws-header-two .ws-list-action .ws-button {
+    font-family: freight-sans-pro, sans-serif;
+    font-size: .75em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #000 !important;
+    background-color: #fff !important;
+    padding: 7px !important;
+    border: 2px solid #000 !important;
+    transition: .1s background-color linear, .1s color linear;
+    border-radius: 0 !important;
+    padding: 12px 18px !important;
+}
+
+.ws-list-action-disable, .ws-header-two .ws-list-action .ws-button {
+    font-family: freight-sans-pro, sans-serif;
+    font-size: .75em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #000 !important;
+    background-color: #fff !important;
+    padding: 7px !important;
+    border: 2px solid #000 !important;
+    transition: .1s background-color linear, .1s color linear;
+    border-radius: 0 !important;
+    padding: 12px 18px !important;
+}

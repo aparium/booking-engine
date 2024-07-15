@@ -1,0 +1,1724 @@
+/* freight-big-book */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf') format('truetype'),
+}
+
+/* freight-big-medium */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf') format('truetype'),
+}
+
+/* freight-big-semibold */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf') format('truetype'),
+}
+
+/* freight-big-bold */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf') format('truetype'),
+}
+
+/* freight-big-bold */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-big';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 900;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf') format('truetype'),
+}
+
+/* freight-sans-light */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf') format('truetype'),
+}
+
+/* freight-sans-book */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf') format('truetype'),
+}
+
+/* freight-sans-medium */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf') format('truetype'),
+}
+
+/* freight-sans-semibold */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf') format('truetype'),
+}
+
+/* freight-sans-bold */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'freight-sans';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf') format('truetype'),
+}
+
+
+
+/* open-sans-regular */
+/* open-sans-300 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'open-sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-300.svg#OpenSans') format('svg');
+  /* Legacy iOS */
+}
+
+/* open-sans-regular */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'open-sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-regular.svg#OpenSans') format('svg');
+  /* Legacy iOS */
+}
+
+/* open-sans-500 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'open-sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-500.svg#OpenSans') format('svg');
+  /* Legacy iOS */
+}
+
+/* open-sans-600 */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'open-sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot');
+  /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.woff') format('woff'),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.ttf') format('truetype'),
+    /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    url('https://cdn.jsdelivr.net/gh/aparium/fonts/open-sans/open-sans-600.svg#OpenSans') format('svg');
+  /* Legacy iOS */
+}
+
+
+:root {
+  --primary: #000 !important;
+  --secondary: #E6E6E6 !important;
+}
+
+
+h1,
+h2,
+h3 {
+  color: #000;
+  font-family: freight-big, sans-serif !important;
+  font-style: normal !important;
+}
+
+
+h1 {
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+}
+
+h2,
+h3 {
+  font-weight: 500 !important;
+  text-transform: capitalize !important;
+
+}
+
+a {
+  transition: all .3s ease-in-out 0s
+}
+
+body,
+p {
+  font-family: freight-sans, sans-serif !important;
+  font-style: normal !important;
+}
+
+ul,
+li {}
+
+a b:hover {
+  font-weight: 700; /* Bold weight */
+}
+
+/** Booking Engine Steps */
+
+.ws-journey .ws-complete .ws-nav-yin {
+  border-bottom-color: #110033;
+  border-top-color: #110033;
+  border-radius: 0;
+}
+
+.ws-journey .ws-active-step .ws-nav-yin {
+  border-color: #828282;
+  border-radius: 0;
+}
+
+.ws-journey .ws-inactive-step .ws-nav-yin {
+  border-color: #E6E6E6;
+  border-radius: 0;
+  color: #fff;
+}
+
+/** Confirmation Number at Checkout */
+
+span.ws-confirmation-number {
+  font-family: 'open-sans', sans-serif;
+}
+
+/** Cart Messages */
+p#hdYourCart {
+  font-family: 'opensans', sans-serif !important;
+}
+
+em#txResend {
+  font-style: normal !important;
+}
+
+.ws-related-data.ws-show-this {
+  border-color: #828282;
+  border-radius: 0;
+}
+
+
+
+a:link, a:visited, h1, .ws-results .ws-related-data h3, .ws-full-details h3, .ws-property-item .ws-property-price .ws-number, .ws-with-discount .ws-number, p.ws-persuade, .ws-mod-dates .ws-element label {}
+
+
+
+.calMonth .calDays div.pointer:hover {
+  background: #000 none repeat scroll 0 0 !important;
+}
+
+.ws-results article.ws-open a h1, .counter span.selected, .ws-select-options li.ws-current a, .ws-select, .ws-component .ws-inner .ws-primary {
+  background-color: #fff;
+  color: #000;
+}
+
+.ws-results article.ws-open a h3:after {
+  display: none;
+}
+
+.ws-element, .ws-heading, .ws-menu-bar::before, .ws-menu-bar::after, .ws-menu-bar li, .ws-menu-bar li.activeli, .ws-product-item, .ws-terms-conditions, .ws-product-item .ws-row-item, span.customSelect, fieldset, .ws-menu-bar li:first-child {
+  border-color: #E6E6E6;
+  border-radius: 0;
+}
+
+.ws-error {
+  color: #FF0022;
+}
+
+.ws-msg-error {
+  background-color: #FF0022 !important;
+  color: #fff !important
+}
+
+.ws-msg-modify, .ws-msg-info {
+  background-color: #682848;
+}
+
+p.ws-persuade, .ws-with-discount .ws-number {
+  color: #682848;
+}
+
+.calMonth .calDays div span {
+  color: #828282;
+}
+
+.ws-itinerary .ws-inner .ws-secondary, #buWsCartCont {
+  background-color: #fff;
+}
+
+.ws-cart-view2, #ws-main .ws-itinerary section .ws-inner {
+  background-color: #fff;
+}
+
+#ws-calendar p.ws-close a, #ws-occupancy-select p.ws-close a, #ws-options-select p.ws-close a, #hdSaveForLater, #hdCancel {
+  color: #fff;
+}
+
+div#dvCalendar {
+  border-bottom: 2px solid #E6E6E6;
+  margin-bottom: 2rem;
+}
+
+div#cnProductItem {
+  border-width: 2px;
+  border: 2px solid #e5e5e5;
+  border-radius: 0 !important
+}
+
+/** Calendar */
+
+
+.ws-legend-item {
+  text-transform: uppercase;
+  color: #000 !important
+}
+
+#ws-calendar .calHead,
+.calDay {
+  color: #000 !important;
+}
+
+.calMonth .calDays div span {
+  color: inherit !important;
+}
+
+#dvCalMonths {
+  font-family: 'open-sans' !important;
+}
+
+#ws-calendar .calMonth .calDays div {
+  border-color: #E6E6E6;
+
+}
+
+.calMonth .calDays div.pointer:hover {
+  color: #fff !important;
+  background-color: #828282 !important;
+  border-color: #fff !important;
+}
+
+.calDays {
+  font-weight: 400 !important;
+}
+
+.dtCheckin {
+  background-color: #682848 !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.dtCheckout {
+  background-color: #682848 !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.wsoutonly {
+  border-color: #fff;
+
+}
+
+div.dtSelected span {
+  color: #fff !important;
+  background: 0 0;
+}
+
+.dtSelected {
+  background-color: #E6E6E6 !important;
+  color: #272525 !important;
+  border-color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.calHead {
+  font-family: freight-big, sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-size: 36px !important;
+  text-transform: capitalize;
+}
+
+.wsoutonly, .calMonth .calDays div.wsoutonly {
+  background: #FF0022 url(../images/diagonal-pattern.png);
+  color: #fff;
+}
+
+span#hdCalMsg {
+  color: #000;
+}
+
+
+/** Middle Filter Bar */
+
+#ws-main section.ws-filter-sort-items .ws-inner {
+  background-color: transparent;
+}
+
+
+/** Buttons */
+
+.ws-outline,
+a.ws-outline,
+span.ws-outline {
+  font-family: freight-sans, sans-serif !important;
+  font-style: normal !important;
+  font-weight: 600;
+  text-transform: uppercase !important;
+  letter-spacing: .1em !important;
+  border: 2px solid #828282 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: #828282 !important;
+  transition: .1s background-color linear, .1s color linear !important;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+}
+
+.ws-outline:hover,
+a.ws-outline:hover,
+span.ws-outline:hover {
+  border: 2px solid #000 !important;
+  border-radius: 0 !important;
+  color: #000 !important;
+}
+
+.ws-primary,
+a.ws-primary,
+span.ws-primary {
+  font-family: freight-sans, sans-serif !important;
+  font-style: normal !important;
+  font-weight: 600;
+  text-transform: uppercase !important;
+  letter-spacing: .1em !important;
+  border: 2px solid #000 !important;
+  border-radius: 0 !important;
+  color: #000;
+  transition: .1s background-color linear, .1s color linear !important;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+
+}
+
+.ws-primary:hover {
+  border: 2px solid #000 !important;
+  border-radius: 0 !important;
+  background: #000 !important;
+  color: #fff!important;
+}
+
+.ws-drawer-view:hover .ws-button-small.ws-primary {
+  background-color: #000 !important;
+  color: #fff!important;
+}
+
+.ws-secondary {
+  border-radius: 0 !important;
+}
+
+.ws-button-small,
+.ws-button-compact,
+.ws-button {
+  font-family: freight-sans, sans-serif !important;
+  font-style: normal !important;
+  font-weight: 600;
+  text-transform: uppercase !important;
+  letter-spacing: .1em !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  transition: .1s background-color linear, .1s color linear !important;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+}
+
+.ws-button-small:hover,
+.ws-button-compact:hover,
+.ws-button:hover {
+  letter-spacing: .1em !important;
+  border: 2px solid #000 !important;
+  border-radius: 0 !important;
+}
+
+.ws-filter-sort-items a.ws-button-small.ws-active, .ws-filter-sort-items button.ws-button-small.ws-active, .ws-grid-list .ws-button-small.ws-active, .ws-attribute .ws-button-small.ws-active {
+  background-color: #000 !important;
+  color: #FFF;
+  border: 2px solid #000 !important;
+}
+
+input#buUpdateResults:hover {
+  background-color: #000;
+  letter-spacing: .1em !important;
+  color: #fff !important;
+}
+
+#buAddonMore,
+#buAddonLess,
+#buDefault,
+#buRoomsMore,
+#buRoomsLess {
+  border-color: transparent !important;
+  border: 2px solid transparent;
+  border-radius: 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+}
+
+#buAddonMore:hover,
+#buAddonLess:hover,
+#buDefault:hover,
+#buRoomsMore:hover,
+#buRoomsLess:hover {
+    font-weight: bold!important;
+}
+
+a#buCalClose {
+  color: #000 !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  font-family: freight-sans, sans-serif !important;
+}
+
+span.ws-icon {
+  padding-right: 5px;
+}
+
+#buClearDates,
+a#buResend,
+a#buResend,
+span.ws-even,
+p.ws-more,
+a.ws-button-small.ws-tagNew.ws-primary {
+  color: #000;
+  font-weight: 600;
+}
+
+span.ws-button-small.ws-primary {
+  padding: .5rem 1rem;
+}
+
+/** Middle Nave Buttons */
+
+#buFilterQualifiedRates,
+#buFilterAll,
+#buFilterFeat,
+#buFilterRoom,
+#buFilterPkg {
+  font-family: freight-sans, sans-serif !important;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+  letter-spacing: .1em !important;
+  transition: .1s background-color linear, .1s color linear !important;
+  border: 2px solid transparent;
+  border-radius: 0 !important;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+}
+
+#buFilterQualifiedRates:hover,
+#buFilterAll:hover,
+#buFilterFeat:hover,
+#buFilterRoom:hover,
+#buFilterPkg:hover,
+#buViewGrid :hover,
+#buViewList:hover,
+#buViewItem:hover, {
+  background-color: transparent !important;
+  border: 2px solid #000 !important;
+  border-radius: 0px !important;
+  color: #000 !important;
+}
+
+#buViewGrid,
+#buViewList,
+#buViewItem {
+  border: 2px solid transparent;
+  margin-right: 1rem;
+}
+
+#buSaveForLater,
+#buCallToContinue {
+  font-family: freight-sans, sans-serif !important;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+  letter-spacing: .1em !important;
+  transition: .1s background-color linear, .1s color linear !important;
+  font-weight: 400;
+}
+
+#ws-main section.ws-call-save .ws-inner {
+  padding-top: .715em;
+  padding-bottom: .715em;
+  display: table;
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  border: 1px solid #000 !important;
+  border-radius: 0px;
+  margin: 2rem 0rem;
+}
+
+button#buFilterAll:active,
+button#buFilterRoom:active,
+button#buFilterPkg:active,
+button#buViewGrid:active,
+button#buViewList:active,
+button#buViewItem:active, {
+  border: 2px solid #000 !important;
+  border-radius: 0 !important;
+}
+
+
+#lbAdults,
+#cbAdults,
+#lbRooms,
+#cbRooms,
+#lbChild1,
+#cbChild1 {
+  border-radius: 0 !important;
+}
+
+a#buCalClear {
+  color: #fff;
+  background-color: #828282;
+  border-color: #828282;
+  font-family: freight-sans, sans-serif !important;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+  letter-spacing: .1em !important;
+  transition: .1s background-color linear, .1s color linear !important;
+  border-radius: 0 !important;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+}
+
+div#dvItinerary {
+  padding-bottom: 4rem;
+}
+
+.ws-results a:hover span.ws-primary {
+  color: #fff;
+}
+
+/** Add More Space After Criteria Bar at Top of Page */
+h2#hdAvailRooms,
+h2#hdAvailRates {
+  font-family: freight-big, sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  text-transform: capitalize !important;
+  letter-spacing: .2rem !important;
+  color: #000 !important;
+  font-size: 2.5em;
+}
+
+/** Located at Top of the Booking Engine, Button for My Reservations & My Cart */
+a#MyHeading_buHeaderCart,
+a#buMyResv {
+  border-color: transparent !important;
+  /* No Boarder */
+}
+
+/** Hotel Names */
+
+h1#txHotelName2,
+.wsName {
+  font-family: freight-big, sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  text-transform: capitalize !important;
+  letter-spacing: .2rem !important;
+  color: #000 !important;
+  font-size: 2em;
+}
+
+/** Rate Names */
+
+.ws-room-rate-name {
+  font-family: freight-big, sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  text-transform: capitalize !important;
+  letter-spacing: .2rem !important;
+  color: #000 !important;
+}
+
+span.moreelipses,
+.ws-comments {
+  font-family: freight-sans, sans-serif !important;
+  font-style: normal;
+  letter-spacing: normal !important;
+  padding-top: .5rem;
+}
+
+/** Pricing */
+
+#lbGenAmt,
+#lbFromRate,
+.ws-prices,
+.ws-number,
+.ws-number2 {
+  font-family: open-sans, sans-serif !important;
+  font-style: normal !important;
+}
+
+
+p#lbViewBy,
+p#lbFilter {
+  padding-right: 10px;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+}
+
+.ws-number {
+  font-size: xx-large;
+}
+
+.ws-property-price {
+  text-transform: uppercase !important;
+}
+
+span.ws-meta.ws-night-block {
+  line-height: 1;
+  padding-top: .5rem;
+  padding-left: 30%;
+}
+
+/** Hide Property Check-in Check-out + Airport Information */
+
+p#dvAirportInfo2,
+span#lbCheckIn,
+span#txCheckIn,
+span#lbCheckOut,
+span#txCheckOut,
+a#buHotelWeb2 {
+  display: none;
+}
+
+.ws-property-desc.ws-disclose {
+  display: none;
+}
+
+/** Inputs */
+
+textarea:focus, input:focus, select:focus, .customSelectFocus, radio:focus {
+  outline: transparent;
+}
+
+/** Trip Advisor Icons + Rating */
+
+.tripadvisor .ta-rating {
+  background: transparent url(https://cdn.jsdelivr.net/gh/aparium/booking-engine/trip-advisor-rating-sprite.png) !important;
+  background-image: url(https://cdn.jsdelivr.net/gh/aparium/booking-engine/trip-advisor-rating-sprite.png) !important
+}
+
+.rating span:before {
+  font-family: wsicons;
+  color: #FFE800 !important;
+  letter-spacing: .167em;
+}
+
+
+.ws-persuade {
+  font-style: normal !important;
+  font-weight: 300 !important;
+}
+
+/** Checkout */
+
+/** Terms & Conditions */
+div#ws-agree-tandc {
+  background-color: #110033;
+}
+
+/** Terms & Conditions Checked */
+.ws-agree-terms {
+  background-color: #828282;
+  border-radius: 0px;
+  color: white;
+}
+
+/** Terms & Conditions Text */
+div#ws-agree-tandc {
+  background-color: #110033;
+}
+
+
+a#buTabDetails,
+a#buTabSummary {
+  text-transform: uppercase;
+}
+
+a#txAgree {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ws-call-save .ws-component .ws-collapsible .ws-show-this {
+  background-color: #fff;
+}
+
+#lbBuHome,
+#lbStepCart,
+#lbStepCheckout,
+#lbStepConfirm {
+  font-family: freight-sans, sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+section#dvCallSave,
+.ws-call-save .ws-component .ws-collapsible .ws-show-this {
+  background-color: #FFF;
+
+}
+
+/** Not Ready to Book Text */
+
+strong#hdCallSave {
+  text-transform: uppercase;
+}
+
+/** Date Size */
+.ws-product-item h2.ws-cart-dates {
+  font-size: x-large;
+}
+
+.ws-cell-item.ws-cart-item {
+  padding: 0rem 0rem 1rem;
+}
+
+.ws-product-item .ws-cart-photo, .ws-product-cartitem .ws-cart-photo {
+  padding-top: 1rem;
+}
+
+/** Cart Formatting */
+p.ws-cart-value {
+  display: none;
+}
+
+.ws-cell-item.ws-cart-item {
+  padding: 1rem 0rem 0rem;
+}
+
+.ws-cart-desc {
+  padding-top: .5rem;
+}
+
+.txRoomName,
+.txRateName {
+  font-size: x-large;
+}
+
+h2#hdTerms {
+  font-size: 2rem;
+}
+
+.wsCartItemBuDelete {
+  color: #FF0022 !important;
+  padding: 1rem 0rem;
+  v
+}
+
+
+/** Custom Section CSS Styles */
+
+.custom-section {
+  display: block !important;
+  max-width: 920px !important;
+  margin: 0 auto;
+  border-top: 1px solid #ddd;
+}
+
+.custom-section-line {
+  display: table;
+  display: block !important;
+  padding-bottom: 1.429em;
+  border-top: 1px solid #ddd;
+}
+
+
+/** Custom Header CSS Styles */
+.header-nav-item-hotels {
+  display: inline-block;
+  transition: width 0.3s;
+  white-space: nowrap;
+  text-align: center;
+  width: 5rem;
+  padding: .25rem 0;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+
+}
+
+.header-nav-item-restaurants {
+  display: inline-block;
+  transition: width 0.3s;
+  white-space: nowrap;
+  text-align: center;
+  width: 12rem;
+  padding: .25rem 0;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+}
+
+.header-nav-item-meetings {
+  display: inline-block;
+  transition: width 0.3s;
+  white-space: nowrap;
+  text-align: center;
+  width: 12rem;
+  padding: .25rem 0;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+
+}
+
+.header-nav-item-about {
+  display: inline-block;
+  transition: width 0.3s;
+  white-space: nowrap;
+  text-align: center;
+  width: 4rem;
+  padding: .25rem 0;
+  -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+  transition: color 170ms ease-in-out, background-color 170ms ease-in-out !important;
+
+}
+
+.header-nav:hover {
+  font-weight: 300;
+  color: #E6E6E6;
+}
+
+.header-nav-item-hotels:hover,
+.header-nav-item-restaurants:hover,
+.header-nav-item-meetings:hover,
+.header-nav-item-about:hover,
+.header-nav-item:hover {
+  font-weight: 900;
+  color: #000;
+}
+
+
+
+
+.ahg-header-row,
+.ahg-header-row-content {
+  position: relative
+}
+
+.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1,
+.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1,
+.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 {
+  color: #000 !important;
+  direction: ltr;
+  line-height: 90%;
+  text-align: right;
+  font-style: normal;
+  font-family: 'freight-sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto
+}
+
+
+.ahg-header-menu .ahg-header-hamburger-controls span,
+.ahg-header-row-1,
+.ahg-header-row-2,
+.ahg-header-row-3,
+.ahg-header-row-4,
+.ahg-header-row-5,
+.ahg-header-row-6,
+.ahg-header-row-6 .ahg-header-row-content {
+  background-repeat: no-repeat
+}
+
+
+
+
+.desktop-display,
+.ahg-header-menu .ahg-header-hamburger-trigger {
+  display: none !important;
+}
+
+.ahg-header-row-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.ahg-header-row-content .ahg-header-col-w4 {
+  flex-basis: 33%
+}
+
+.ahg-header-row-content .ahg-header-col-w6 {
+  flex-basis: 50%
+}
+
+.ahg-header-row-content .ahg-header-col-w8 {
+  flex-basis: 67%
+}
+
+.ahg-header-row-content .ahg-header-col-w12 {
+  flex-basis: 100%
+}
+
+.ahg-header-icon .ahg-header-icon-label-right a,
+.ahg-header-menu ul li a {
+  text-decoration: none
+}
+
+.ahg-header-image {
+  overflow: auto;
+
+}
+
+.ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1,
+.ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1,
+.ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 {
+  width: 100%
+}
+
+.ahg-header-menu ul {
+  margin: 0;
+  padding: 0
+}
+
+.ahg-header-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ahg-header-icon .ahg-header-content {
+  display: flex;
+  align-items: center
+}
+
+.ahg-header-image img {
+  display: block;
+  width: 100%
+}
+
+.ahg-header-menu .ahg-header-hamburger-controls {
+  cursor: pointer;
+  display: inline-block;
+  position: relative
+}
+
+.ahg-header-menu .ahg-header-hamburger-controls span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-size: 100%;
+  transition: .12s ease-in-out
+}
+
+.ahg-header-menu ul {
+  list-style-type: none
+}
+
+.ahg-header-menu ul.ahg-header-horizontal li {
+  display: inline-block
+}
+
+.ahg-header-row-1 .ahg-header-row-content,
+.ahg-header-row-2 .ahg-header-row-content,
+.ahg-header-row-3 .ahg-header-row-content,
+.ahg-header-row-4 .ahg-header-row-content,
+.ahg-header-row-5 .ahg-header-row-content {
+  background-repeat: no-repeat;
+  border-radius: 0;
+  color: #000000
+}
+
+.ahg-header-row-1 .ahg-header-col-1,
+.ahg-header-row-5 .ahg-header-col-1,
+.ahg-header-row-6 .ahg-header-col-1 {
+  padding-bottom: 5px;
+  padding-top: 5px
+}
+
+.ahg-header-row-2 .ahg-header-col-1 {
+  padding: 45px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0
+}
+
+.ahg-header-row-2 .ahg-header-col-2 {
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0
+}
+
+.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 {
+  padding-bottom: 5px
+}
+
+.ahg-header-row-3 .ahg-header-col-1,
+.ahg-header-row-4 .ahg-header-col-1 {
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0
+}
+
+.ahg-header-row-3 .ahg-header-col-2,
+.ahg-header-row-4 .ahg-header-col-2 {
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0
+}
+
+.ahg-header-row-6 .ahg-header-row-content {
+  color: #000000
+}
+
+.ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 {
+  color: #1e0e4b;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center
+}
+
+.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 li {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px
+}
+
+.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 li a,
+.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 li a,
+.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 li a {
+  color: #000;
+}
+
+@media (max-width:600px) {
+  .desktop-display {
+    display: block !important
+  }
+
+  .tablet-display {
+    display: none !important
+  }
+
+  .ahg-header-menu ul.with-ahg-header-hamburger {
+    display: none;
+    padding: 5px 0;
+    position: relative;
+    top: -4px
+  }
+
+  .ahg-header-menu ul.with-ahg-header-hamburger li {
+    display: block;
+    text-align: center
+  }
+
+  .ahg-header-menu ul.with-ahg-header-hamburger li a {
+    text-decoration: none
+  }
+
+  .ahg-header-menu ul.with-ahg-header-hamburger span,
+  .tablet-display {
+    display: none
+  }
+
+
+  #ahg-header-hamburger-memu-r1c1m0:checked~ul,
+  #ahg-header-hamburger-memu-r2c1m0:checked~ul,
+  #ahg-header-hamburger-memu-r3c1m0:checked~ul,
+  .ahg-header-row-content:not(.no_stack) {
+    display: block;
+
+  }
+
+  .ahg-header-row-3 {
+    padding-bottom: 5rem;
+
+  }
+
+  .ahg-header-row-3 .ahg-header-col-1 {
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+  }
+
+  .ahg-header-row-3 .ahg-header-col-1,
+  .ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1,
+  .ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 {
+    padding: 0 10px !important;
+
+  }
+
+  .ahg-header-row-3 col .ahg-header-col-2 {
+    height: 0rem;
+  }
+
+  .ahg-header-row-4 .ahg-header-col-1 {
+    padding: 15px 10px 0 !important
+  }
+
+  .ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1 {
+    padding: 10px !important
+  }
+
+  .ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1 img,
+  .ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 img {
+    float: none !important;
+    margin: 0 auto !important
+  }
+
+  .ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1 img {
+    float: left !important;
+    margin: auto !important
+  }
+
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls {
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 0
+  }
+
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span {
+    width: 24px;
+    height: 24px
+  }
+
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open,
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjODI4MjgyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
+    transform: translate(-50%, -50%) scaleY(1)
+  }
+
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close,
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjODI4MjgyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
+    transform: translate(-50%, -50%) scaleY(0)
+  }
+
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger,
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger {
+    background-color: #ffffff
+  }
+
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li,
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li a,
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li,
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li a,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li a {}
+
+  #ahg-header-hamburger-memu-r1c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-open,
+  #ahg-header-hamburger-memu-r2c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-open,
+  #ahg-header-hamburger-memu-r3c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-open {
+    transform: translate(-50%, -50%) scaleY(0)
+  }
+
+  #ahg-header-hamburger-memu-r1c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-close,
+  #ahg-header-hamburger-memu-r2c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-close,
+  #ahg-header-hamburger-memu-r3c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-close {
+    transform: translate(-50%, -50%) scaleY(1)
+  }
+
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 {
+    padding: 0 !important;
+    text-align: right !important
+  }
+
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls {
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff;
+    border-radius: 0
+  }
+
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span {
+    width: 18px;
+    height: 18px
+  }
+
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 {
+    padding: 0 0 20px !important;
+    text-align: right !important
+  }
+
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 li,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 li {
+    font-size: 1rem !important;
+    line-height: auto !important
+  }
+
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 {
+    padding: 0 0 15px !important;
+    text-align: center !important
+  }
+}
+
+.ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon-image {
+  padding: 5px 6px 5px 5px
+}
+
+.ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon:not(.ahg-header-icon-first) .ahg-header-content {
+  margin-left: 0
+}
+
+.ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon::not(.ahg-header-icon-last) .ahg-header-content {
+  margin-right: 0
+}
+
+@media (max-width:500px) {
+  .desktop-display {
+    display: block !important
+  }
+
+  .mobile-display {
+    display: none !important
+  }
+
+}
+
+/** Hide Footer on Cart Page */
+
+html.WsIbeConfirm #cnWsResultHotels,
+html.WsIbeCheckout #cnWsResultHotels,
+html.WsIbeCart #cnWsResultHotels {
+  display: none;
+}
+
+/** Custom Footer CSS Styles */
+#ws-main {
+  min-height: unset;
+}
+
+#footercontent {
+  border-top: unset !important;
+  font-size: unset !important;
+}
+
+#footer {
+  width: 1143px !important;
+}
+
+
+
+.footer-nav-item {
+-webkit-text-size-adjust: 100%;
+pointer-events: auto;
+--cash-overlay-background-color: rgba(0,0,0,0.5);
+--vh: 4.7px;
+font-family: freight-sans, sans-serif!important;
+text-transform: uppercase!important;
+font-style: normal;
+font-size: 14px;
+letter-spacing: .01em;
+line-height: 1.3em;
+text-transform: none;
+-webkit-font-smoothing: subpixel-antialiased;
+visibility: visible;
+hyphens: manual;
+white-space: pre-wrap;
+background-color: transparent;
+text-decoration: none;
+border: none;
+font-weight: 700;
+color: #828282!important;
+padding-bottom: .05em;
+transition: border-color .15s ease-out,color .15s ease-out;
+word-wrap: break-word;
+}
+
+.footer-nav-item:hover {
+  font-weight: 400;
+}
+
+.ahg-footer-menu ul li {
+  list-style: none !important;
+  list-style-type: none !important;
+}
+
+.ahg-footer-row,
+.ahg-footer-row-content {
+  position: relative;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-1,
+.ahg-footer-row-1 .ahg-footer-col-2,
+.ahg-footer-row-1 .ahg-footer-col-3,
+.ahg-footer-row-2 .ahg-footer-col-1 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.ahg-footer-row-2,
+body {
+  background-color: #fff;
+}
+
+.ahg-footer-row-1,
+.ahg-footer-row-1 .ahg-footer-row-content,
+.ahg-footer-row-2,
+.ahg-footer-row-2 .ahg-footer-row-content {
+  background-repeat: no-repeat;
+}
+
+.ahg-footer-row-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.ahg-footer-row-content .ahg-footer-col-w3 {
+  flex-basis: 25%;
+}
+
+.ahg-footer-row-content .ahg-footer-col-w4 {
+  flex-basis: 33%;
+}
+
+.ahg-footer-row-content .ahg-footer-col-w5 {
+  flex-basis: 42%;
+}
+
+.ahg-footer-row-content .ahg-footer-col-w12 {
+  flex-basis: 100%;
+}
+
+.ahg-footer-icon .ahg-footer-icon-label-right a,
+.ahg-footer-menu ul li a {
+  text-decoration: none;
+}
+
+.ahg-footer-image {
+  overflow: auto;
+}
+
+.ahg-footer-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ahg-footer-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ahg-footer-icon .ahg-footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.ahg-footer-image img {
+  display: block;
+  width: 100%;
+}
+
+.ahg-footer-menu ul {
+  list-style-type: none;
+}
+
+.ahg-footer-row-1 .ahg-footer-row-content {
+  border-radius: 0;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-3 {
+  padding-right: 10px;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-1 {
+  padding-bottom: 35px;
+  padding-left: 10px;
+  padding-top: 35px;
+  width: 100%;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-2 {
+
+  padding-left: 10px;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-3 {
+  padding: 35px 10px 35px 10px;
+
+}
+
+.ahg-footer-row-2 .ahg-footer-row-content {
+  color: #000;
+}
+
+.ahg-footer-row-2 .ahg-footer-col-1 .ahg-footer-block-1 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-2 li,
+.ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-3 .ahg-footer-icon-image {
+  padding: 5px;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-3 .ahg-footer-icon:not(.ahg-footer-icon-first) .ahg-footer-content {
+  margin-left: 5px;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-3 .ahg-footer-icon::not(.ahg-footer-icon-last) .ahg-footer-content {
+  margin-right: 5px;
+}
+
+.ahg-footer-row-2 .ahg-footer-col-1 .ahg-footer-block-1 .ahg-footer-icon-image {
+  padding: 5px 6px 5px 5px;
+}
+
+.ahg-footer-row-2 .ahg-footer-col-1 .ahg-footer-block-1 .ahg-footer-icon:not(.ahg-footer-icon-first) .ahg-footer-content {
+  margin-left: 0;
+}
+
+.ahg-footer-row-2 .ahg-footer-col-1 .ahg-footer-block-1 .ahg-footer-icon::not(.ahg-footer-icon-last) .ahg-footer-content {
+  margin-right: 0;
+}
+
+.ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-2 li a {
+
+}
+
+@media (max-width:821px) {
+  .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-1 {
+    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-top: 35px;
+    width: 100%;
+  }
+
+  .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-2 {
+    font-size: 14px;
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-3 {
+    padding: 35px 0 35px 0;
+    text-align: left;
+  }
+
+  .ahg-footer-row-2 .ahg-footer-row-content {
+
+  }
+
+  .ahg-footer-row-2 .ahg-footer-col-1 .ahg-footer-block-1 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  @media (max-width:680px) {
+    .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-3 {
+      padding: 35px 20px 35px 20px;
+      text-align: left;
+    }
+
+    @media (max-width:540px) {
+      .ahg-footer-row-content:not(.no_stack) {
+        display: block;
+      }
+
+      .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-3 {
+        padding: 35px 10px !important;
+        text-align: center !important;
+      }
+
+      .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-1 {
+        padding: 35px !important;
+      }
+
+      .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-1 img {
+        float: none !important;
+        margin: 0 auto !important;
+      }
+
+      .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-2 {
+        padding: 10px 0 !important;
+        text-align: center !important;
+      }
+    }
+  }
+}

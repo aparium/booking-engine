@@ -3,8 +3,8 @@
 
 /*
 <!-- 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/booking-engine/ahg-fonts.css">
-<link rel="stylesheet" type="text/css" href="https://aparium.github.io/aparium/booking-eging/ahg-fonts.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/booking-engine/ahg-ibe.css">
+<link rel="stylesheet" type="text/css" href="https://aparium.github.io/aparium/booking-eging/ahg-ibe.css">
 -->
 */
 
@@ -10018,4 +10018,46 @@ p, h1, h2, h3 {
     -moz-hyphens: manual !important;
     -ms-hyphens: manual !important;
     hyphens: manual !important
+}
+
+
+
+
+
+
+.sqs-layout>.sqs-row {
+    margin-left: -17px;
+    margin-right: -17px
+}
+
+.sqs-layout:not(.sqs-editing) .sqs-row .sqs-block:not(.float):not(.sqs-feature-gated-wrapper):first-child {
+    padding-top: 0
+}
+
+.sqs-layout:not(.sqs-editing) .sqs-row .sqs-block:not(.float):not(.sqs-feature-gated-wrapper):first-child:last-child {
+    padding-bottom: 0
+}
+
+.sqs-layout:not(.sqs-editing) .sqs-block+.sqs-row .sqs-block:not(.float):first-child {
+    padding-top: 17px
+}
+
+.sqs-layout:not(.sqs-editing) .sqs-block+.sqs-row .sqs-block:not(.float):first-child:last-child {
+    padding-bottom: 17px
+}
+
+.sqs-layout:not(.sqs-editing) .sqs-row+.sqs-row .sqs-block:not(.float):first-child {
+    padding-top: 17px
+}
+
+.sqs-layout:not(.sqs-editing) .sqs-row+.sqs-row .sqs-block:not(.float):first-child:last-child {
+    padding-bottom: 17px
+}
+
+.sqs-layout:not(.sqs-editing)>.sqs-row:first-child>[class*=sqs-col]:first-child>.sqs-block:not(:first-child):last-child, .sqs-layout:not(.sqs-editing) .sqs-block+.sqs-row .sqs-block:not(.float):last-child {
+    padding-bottom: 17px
+}
+
+.sqs-layout:not(.sqs-editing) .sqs-row+.sqs-row:not(:last-child) .sqs-block:last-child {
+    padding-bottom: 17px
 }
