@@ -5,13 +5,10 @@
 -->
 */
 
-
-
 /**  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 |    AHG |   APARIUM
 |    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 */
-
 
 #ws-main {
   min-height: unset !important;
@@ -25,8 +22,6 @@
 #footer {
   width: 1143px !important;
 }
-
-
 
 .footer-nav-item {
   -webkit-text-size-adjust: 100%;
@@ -202,9 +197,6 @@ body {
 }
 
 .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-2 li a {}
-
-
-
 
 /* NEW CODE BLOCK */
 /* NEW CODE BLOCK */
@@ -464,7 +456,6 @@ a {
 
   .aph-social-icons-block {
     grid-column-gap: 16px;
-    grid-roahg-footer-new-gap: 16px;
     flex-flow: row;
     grid-template-rows: auto;
     grid-template-columns: min-content min-content min-content min-content;
