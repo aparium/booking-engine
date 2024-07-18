@@ -10,19 +10,6 @@
 |    AHG |   APARIUM
 |    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 */
-
-body {
-  margin: 0;
-}
-
-section {
-  display: block;
-}
-
-a {
-  background-color: transparent;
-}
-
 a:active, a:hover {
   outline: 0;
 }
@@ -39,7 +26,19 @@ svg:not(:root) {
   box-sizing: border-box;
 }
 
-body {
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+
+
+#custom-footer * {
+  box-sizing: border-box;
+  width: 1000px !important;
+}
+
+#custom-footer body {
   color: #333;
   background-color: #fff;
   min-height: 100%;
@@ -47,28 +46,41 @@ body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
+  margin: 0;
 }
 
-img {
+#custom-footer img {
   vertical-align: middle;
   max-width: 100%;
   display: inline-block;
 }
 
-#ws-main {
+section #custom-footer {
+  display: block;
+}
+
+#custom-footer a {
+  background-color: transparent;
+}
+
+#custom-footer a:active, 
+#custom-footer a:hover {
+  outline: 0;
+}
+
+#custom-footer svg:not(:root) {
+  overflow: hidden;
+}
+
+#custom-footer #ws-main {
   min-height: unset !important;
 }
-
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
-
 
 #footercontent {
   border-top: unset !important;
   font-size: unset !important;
 }
+
 
 #footer {
   width: 1143px !important;
@@ -249,114 +261,66 @@ body {
 
 .ahg-footer-row-1 .ahg-footer-col-3 .ahg-footer-block-2 li a {}
 
-/* NEW CODE BLOCK */
-/* NEW CODE BLOCK */
-/* NEW CODE BLOCK */
-
-body .footer-2 {
-  margin: 0;
-}
-
-section .footer-2 {
-  display: block;
-}
-
-a {
-  background-color: transparent;
-}
-
-a:active, a:hover {
-  outline: 0;
-}
-
-img {
-  border: 0;
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body .footer-2 {
-  color: #333;
-  background-color: #fff;
-  min-height: 100%;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.ahg-footer-new-inline-block {
+.ahg-footer-inline-block {
   max-width: 100%;
   display: inline-block;
 }
 
-.ahg-footer-new-embed:before, .ahg-footer-new-embed:after {
+.ahg-footer-embed:before, .ahg-footer-embed:after {
   content: " ";
   grid-area: 1/1/2/2;
   display: table;
 }
 
-.ahg-footer-new-embed:after {
+.ahg-footer-embed:after {
   clear: both;
 }
 
-.ahg-footer-new-container {
+.ahg-footer-container {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.ahg-footer-new-container:before, .ahg-footer-new-container:after {
+.ahg-footer-container:before, .ahg-footer-container:after {
   content: " ";
   grid-area: 1/1/2/2;
   display: table;
 }
 
-.ahg-footer-new-container:after {
+.ahg-footer-container:after {
   clear: both;
 }
 
-.ahg-footer-new-layout-layout {
+.ahg-footer-layout-layout {
   display: grid;
 }
 
-.ahg-footer-new-layout-blockcontainer {
+.ahg-footer-layout-block-container {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.ahg-footer-new-layout-layout {
-  grid-roahg-footer-new-gap: 20px;
+.ahg-footer-layout-layout {
+  grid-roahg-footer-gap: 20px;
   grid-column-gap: 20px;
   grid-auto-columns: 1fr;
   justify-content: center;
   padding: 20px;
 }
 
-.ahg-footer-new-layout-cell {
+.ahg-footer-layout-cell {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
 }
 
-a {
-  color: var(--colors--green);
-  font-weight: 500;
-  text-decoration: none;
-}
-
 .ahg-links-block {
   grid-column-gap: 7px;
-  grid-roahg-footer-new-gap: 7px;
+  grid-roahg-footer-gap: 7px;
   flex-flow: column;
   justify-content: center;
   align-items: flex-start;
@@ -364,9 +328,9 @@ a {
   padding-bottom: 1em;
 }
 
-.aph-social-icons-block {
+.ahg-footer-social-icons-block {
   grid-column-gap: 16px;
-  grid-roahg-footer-new-gap: 16px;
+  grid-roahg-footer-gap: 16px;
   flex-flow: row;
   grid-template-rows: auto;
   grid-template-columns: min-content min-content min-content min-content;
@@ -376,11 +340,11 @@ a {
   display: inline-grid;
 }
 
-.aph-social-icons-block:hover {
+.ahg-footer-social-icons-block:hover {
   filter: brightness(156%)brightness(200%);
 }
 
-.aph-links {
+.ahg-links {
   color: #828282;
   letter-spacing: .01em;
   text-transform: uppercase;
@@ -391,42 +355,38 @@ a {
   display: flex;
 }
 
-.aph-links:hover {
+.ahg-links:hover {
   font-weight: 400;
 }
 
-.ahg-social-links {
+.ahg-footer-social-links {
   grid-column-gap: 15px;
-  grid-roahg-footer-new-gap: 15px;
+  grid-roahg-footer-gap: 15px;
   justify-content: center;
   align-self: center;
   align-items: center;
   display: inline-flex;
 }
 
-.ahg-social-icons {
+.ahg-footer-social-icons {
   color: var(--bg-component);
   transition: all 1s;
 }
 
-.ahg-social-icons:hover {
+.ahg-footer-social-icons:hover {
   filter: brightness(0%);
-}
-
-.image-123 {
-  width: 250px;
 }
 
 .quick-stack-10 {
   padding-left: 60px;
 }
 
-#ahg-social-icons-grid {
+#ahg-footer-social-icons-grid {
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr;
 }
 
-#ahg_social_element1, #ahg_social_element2, #ahg_social_element3, #ahg_social_element4 {
+#ahg_social_element1, #ahg_2social_element, #ahg_social_element3, #ahg_social_element4 {
   justify-self: start;
 }
 
@@ -461,11 +421,11 @@ a {
     text-align: center;
   }
 
-  .ahg-footer-new-layout-blockcontainer {
+  .ahg-footer-layout-block-container {
     max-width: 728px;
   }
 
-  .ahg-footer-new-container {
+  .ahg-footer-container {
     max-width: 728px;
   }
 }
@@ -476,7 +436,7 @@ a {
     text-align: left;
   }
 
-  .ahg-footer-new-layout-blockcontainer {
+  .ahg-footer-layout-block-container {
     max-width: none;
   }
 }
@@ -505,7 +465,7 @@ a {
     text-align: center !important;
   }
 
-  .aph-social-icons-block {
+  .ahg-footer-social-icons-block {
     grid-column-gap: 16px;
     flex-flow: row;
     grid-template-rows: auto;
@@ -525,7 +485,7 @@ a {
     grid-area: span 1/span 1/span 1/span 1;
   }
 
-  .aph-links {
+  .ahg-links {
     transition: all 1s;
   }
 
@@ -533,7 +493,7 @@ a {
     display: none;
   }
 
-  .ahg-footer-new-container {
+  .ahg-footer-container {
     max-width: none;
   }
 }
