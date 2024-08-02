@@ -1,6 +1,6 @@
 /*
 <!-- 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/booking-engine/ahg-custom-footer.css">
+<link rel="stylesheet" typ="text/css" href="https://cdn.jsdelivr.net/gh/aparium/booking-engine/ahg-custom-footer.css">
 <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/aparium/booking-engine/main/ahg-custom-footer.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aparium/fonts/ahg-fonts.css">
 -->
@@ -38,7 +38,7 @@ img {
   width: 1000px !important;
 }
 
-#custom-footer body {
+body {
   color: #333;
   background-color: #fff;
   min-height: 100%;
@@ -49,30 +49,30 @@ img {
   margin: 0;
 }
 
-#custom-footer img {
+img {
   vertical-align: middle;
   max-width: 100%;
   display: inline-block;
 }
 
-section #custom-footer {
+section{ 
   display: block;
 }
 
-#custom-footer a {
+a {
   background-color: transparent;
 }
 
-#custom-footer a:active, 
-#custom-footer a:hover {
+a:active, 
+a:hover {
   outline: 0;
 }
 
-#custom-footer svg:not(:root) {
+svg:not(:root) {
   overflow: hidden;
 }
 
-#custom-footer #ws-main {
+#ws-main {
   min-height: unset !important;
 }
 
@@ -132,10 +132,6 @@ section #custom-footer {
   padding-top: 5px;
 }
 
-.ahg-footer-row-2,
-body {
-  background-color: #fff;
-}
 
 .ahg-footer-row-1,
 .ahg-footer-row-1 .ahg-footer-row-content,

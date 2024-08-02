@@ -1,710 +1,496 @@
-	<style>
-/* freight-big-book */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-big';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-book.ttf') format('truetype'),
-}
-
-/* freight-big-medium */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-big';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 500;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-medium.ttf') format('truetype'),
-}
-
-/* freight-big-semibold */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-big';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 600;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-semibold.ttf') format('truetype'),
-}
-
-/* freight-big-bold */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-big';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 700;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-bold.ttf') format('truetype'),
-}
-
-/* freight-big-bold */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-big';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 900;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-big/freight-big-black.ttf') format('truetype'),
-}
-
-/* freight-sans-light */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-sans';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 300;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-light.ttf') format('truetype'),
-}
-
-/* freight-sans-book */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-sans';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-book.ttf') format('truetype'),
-}
-
-/* freight-sans-medium */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-sans';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 500;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-medium.ttf') format('truetype'),
-}
-
-/* freight-sans-semibold */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-sans';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 600;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-semibold.ttf') format('truetype'),
-}
-
-/* freight-sans-bold */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'freight-sans';
-    font-style: normal;
-    font-stretch: normal;
-    font-weight: 700;
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/aparium/fonts/freight-sans/freight-sans-bold.ttf') format('truetype'),
-}
-
-
-
-  .header-nav-item-hotels {
-     display: inline-block;
-  transition: width 0.3s;  
-  white-space: nowrap;
-
+<style>
+  .header-nav-item-restaurants {
+    display: inline-block;
+    transition: width .3s;
+    white-space: nowrap;
     text-align: center;
-    width: 5rem;
-          padding: .25rem 0;
-      
-
+    width: 12rem;
+    padding: .25rem 0
   }
-	.header-nav-item-restaurants {
-  display: inline-block;
-  transition: width 0.3s;  
-  white-space: nowrap;
-    
-        text-align: center;
-      width: 12rem;
-      padding: .25rem 0;
-       
+  .header-nav-item-meetings {
+    display: inline-block;
+    transition: width .3s;
+    white-space: nowrap;
+    text-align: center;
+    width: 12rem;
+    padding: .25rem 0
   }
-  	.header-nav-item-meetings {
-     display: inline-block;
-  transition: width 0.3s;  
-  white-space: nowrap;
-     
-        text-align: center;
-          width: 12rem;
-                padding: .25rem 0;
-
+  .header-nav-item-about {
+    display: inline-block;
+    transition: width .3s;
+    white-space: nowrap;
+    text-align: center;
+    width: 4rem;
+    padding: .25rem 0
   }
-  	.header-nav-item-about {
-  display: inline-block;
-  transition: width 0.3s;  
-  white-space: nowrap;
-      
-        text-align: center;
-          width: 4rem;
-                padding: .25rem 0;
-                  
-  }
-  
-
-
-
-
-
-.header-nav:hover {
+  .header-nav:hover {
     font-weight: 300;
-    color: #E6E6E6;
-}
-
-.header-nav-item-hotels:hover,
-.header-nav-item-restaurants:hover,
-.header-nav-item-meetings:hover,
-.header-nav-item-about:hover,
-.header-nav-item:hover {
+    color: #e6e6e6
+  }
+  .header-nav-item-about:hover,
+  .header-nav-item-hotels:hover,
+  .header-nav-item-meetings:hover,
+  .header-nav-item-restaurants:hover,
+  .header-nav-item:hover {
     font-weight: 900;
-    color: #000;
-}
-
-
-
-
-		.ahg-header-row,
-		.ahg-header-row-content {
-			position: relative
-		}
-
-		.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1,
-		.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1,
-		.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 {
-  color: #000!important;
-  direction: ltr;
-  line-height: 90%;
-  text-align: right;
-  font-style: normal;
-  font-family: 'freight-sans', sans-serif;
-      font-weight: 500;
-      font-size: 1.2rem;
-  letter-spacing: .02em;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0;
-      -webkit-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-    -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-    -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-    -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-    transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
-        -webkit-font-smoothing: subpixel-antialiased;
+    color: #000
+  }
+  .ahg-header-row,
+  .ahg-header-row-content {
+    position: relative
+  }
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1,
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 {
+    color: #000!important;
+    direction: ltr;
+    line-height: 90%;
+    text-align: right;
+    font-style: normal;
+    font-family: freight-sans,sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0;
+    -webkit-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+    -moz-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+    -ms-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+    -o-transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+    transition: color 170ms ease-in-out,background-color 170ms ease-in-out;
+    -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto
-		}
+  }
+  .ahg-header-menu .ahg-header-hamburger-controls span,
+  .ahg-header-row-1,
+  .ahg-header-row-2,
+  .ahg-header-row-3,
+  .ahg-header-row-4,
+  .ahg-header-row-5,
+  .ahg-header-row-6,
+  .ahg-header-row-6 .ahg-header-row-content {
+    background-repeat: no-repeat
+  }
+  .ahg-header-menu .ahg-header-hamburger-trigger,
+  .desktop-display {
+    display: none!important
+  }
+  .ahg-header-row-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex
+  }
+  .ahg-header-row-content .ahg-header-col-w4 {
+    flex-basis: 33%
+  }
+  .ahg-header-row-content .ahg-header-col-w6 {
+    flex-basis: 50%
+  }
+  .ahg-header-row-content .ahg-header-col-w8 {
+    flex-basis: 67%
+  }
+  .ahg-header-row-content .ahg-header-col-w12 {
+    flex-basis: 100%
+  }
+  .ahg-header-icon .ahg-header-icon-label-right a,
+  .ahg-header-menu ul li a {
+    text-decoration: none
+  }
+  .ahg-header-image {
+    overflow: auto
+  }
+  .ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1,
+  .ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1,
+  .ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 {
+    width: 100%
+  }
+  .ahg-header-menu ul {
+    margin: 0;
+    padding: 0
+  }
+  .ahg-header-icon {
+    display: inline-block;
+    vertical-align: middle
+  }
+  .ahg-header-icon .ahg-header-content {
+    display: flex;
+    align-items: center
+  }
+  .ahg-header-image img {
+    display: block;
+    width: 100%
+  }
+  .ahg-header-menu .ahg-header-hamburger-controls {
+    cursor: pointer;
+    display: inline-block;
+    position: relative
+  }
+  .ahg-header-menu .ahg-header-hamburger-controls span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-size: 100%;
+    transition: .12s ease-in-out
+  }
+  .ahg-header-menu ul {
+    list-style-type: none
+  }
+  .ahg-header-menu ul.ahg-header-horizontal li {
+    display: inline-block
+  }
+  .ahg-header-row-1 .ahg-header-row-content,
+  .ahg-header-row-2 .ahg-header-row-content,
+  .ahg-header-row-3 .ahg-header-row-content,
+  .ahg-header-row-4 .ahg-header-row-content,
+  .ahg-header-row-5 .ahg-header-row-content {
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #000
+  }
+  .ahg-header-row-1 .ahg-header-col-1,
+  .ahg-header-row-5 .ahg-header-col-1,
+  .ahg-header-row-6 .ahg-header-col-1 {
+    padding-bottom: 5px;
+    padding-top: 5px
+  }
+  .ahg-header-row-2 .ahg-header-col-1 {
+    padding: 45px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0
+  }
+  .ahg-header-row-2 .ahg-header-col-2 {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0
+  }
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 {
+    padding-bottom: 5px
+  }
+  .ahg-header-row-3 .ahg-header-col-1,
+  .ahg-header-row-4 .ahg-header-col-1 {
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0
+  }
+  .ahg-header-row-3 .ahg-header-col-2,
+  .ahg-header-row-4 .ahg-header-col-2 {
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0
+  }
+  .ahg-header-row-6 .ahg-header-row-content {
+    color: #000
+  }
+  .ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 {
+    color: #1e0e4b;
+    font-family: Inter,sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center
+  }
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px
+  }
+  .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 li a,
+  .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 li a,
+  .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 li a {
+    color: #000
+  }
+  @media (max-width:800px) {
+    .desktop-display {
+      display: block!important
+    }
+    .tablet-display {
+      display: none!important
+    }
+    .ahg-header-menu ul.with-ahg-header-hamburger {
+      display: none;
+      padding: 5px 0;
+      position: relative;
+      top: -4px
+    }
+    .ahg-header-menu ul.with-ahg-header-hamburger li {
+      display: block;
+      text-align: center
+    }
+    .ahg-header-menu ul.with-ahg-header-hamburger li a {
+      text-decoration: none
+    }
+    .ahg-header-menu ul.with-ahg-header-hamburger span,
+    .tablet-display {
+      display: none
+    }
+    #ahg-header-hamburger-memu-r1c1m0:checked ~ ul,
+    #ahg-header-hamburger-memu-r2c1m0:checked ~ ul,
+    #ahg-header-hamburger-memu-r3c1m0:checked ~ ul,
+    .ahg-header-row-content:not(.no_stack) {
+      display: block
+    }
+    .ahg-header-row-3 {
+      padding-bottom: 5rem
+    }
+    .ahg-header-row-3 .ahg-header-col-1 {
+      justify-content: flex-start;
+      margin-top: 1.5rem
+    }
+    .ahg-header-row-3 .ahg-header-col-1,
+    .ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1,
+    .ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 {
+      padding: 0 10px!important
+    }
+    .ahg-header-row-3 col .ahg-header-col-2 {
+      height: 0
+    }
+    .ahg-header-row-4 .ahg-header-col-1 {
+      padding: 15px 10px 0!important
+    }
+    .ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1 {
+      padding: 10px!important
+    }
+    .ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1 img,
+    .ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 img {
+      float: none!important;
+      margin: 0 auto!important
+    }
+    .ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1 img {
+      float: left!important;
+      margin: auto!important
+    }
+    .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls,
+    .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls {
+      width: 48px;
+      height: 48px;
+      background-color: #fff;
+      border-radius: 0
+    }
+    .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span,
+    .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span {
+      width: 24px;
+      height: 24px
+    }
+    .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open,
+    .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open,
+    .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open {
+      background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjODI4MjgyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
+      transform: translate(-50%,-50%) scaleY(1)
+    }
+    .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close,
+    .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close,
+    .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close {
+      background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjODI4MjgyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
+      transform: translate(-50%,-50%) scaleY(0)
+    }
+    .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger,
+    .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger,
+    .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger {
+      background-color: #fff
+    }
+    #ahg-header-hamburger-memu-r1c1m0:checked ~ .ahg-header-hamburger-controls .ahg-header-hamburger-open,
+    #ahg-header-hamburger-memu-r2c1m0:checked ~ .ahg-header-hamburger-controls .ahg-header-hamburger-open,
+    #ahg-header-hamburger-memu-r3c1m0:checked ~ .ahg-header-hamburger-controls .ahg-header-hamburger-open {
+      transform: translate(-50%,-50%) scaleY(0)
+    }
+    #ahg-header-hamburger-memu-r1c1m0:checked ~ .ahg-header-hamburger-controls .ahg-header-hamburger-close,
+    #ahg-header-hamburger-memu-r2c1m0:checked ~ .ahg-header-hamburger-controls .ahg-header-hamburger-close,
+    #ahg-header-hamburger-memu-r3c1m0:checked ~ .ahg-header-hamburger-controls .ahg-header-hamburger-close {
+      transform: translate(-50%,-50%) scaleY(1)
+    }
+    .ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 {
+      padding: 0!important;
+      text-align: right!important
+    }
+    .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls {
+      width: 36px;
+      height: 36px;
+      background-color: #fff;
+      border-radius: 0
+    }
+    .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span {
+      width: 18px;
+      height: 18px
+    }
+    .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 {
+      padding: 0 0 20px!important;
+      text-align: right!important
+    }
+    .ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 li,
+    .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 li {
+      font-size: 12px!important;
+      line-height: auto!important
+    }
+    .ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 {
+      padding: 0 0 15px!important;
+      text-align: center!important
+    }
+  }
+  .ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon-image {
+    padding: 5px 6px 5px 5px
+  }
+  .ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon:not(.ahg-header-icon-first) .ahg-header-content {
+    margin-left: 0
+  }
+  .ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon::not(.ahg-header-icon-last) .ahg-header-content {
+    margin-right: 0
+  }
+  @media (max-width:400px) {
+    .desktop-display {
+      display: block!important
+    }
+    .mobile-display {
+      display: none!important
+    }
+  }
+</style>
 
-		
-		.ahg-header-menu .ahg-header-hamburger-controls span,
-		.ahg-header-row-1,
-		.ahg-header-row-2,
-		.ahg-header-row-3,
-		.ahg-header-row-4,
-		.ahg-header-row-5,
-		.ahg-header-row-6,
-		.ahg-header-row-6 .ahg-header-row-content {
-			background-repeat: no-repeat
-		}
 
 
 
 
-		.desktop-display,
-		.ahg-header-menu .ahg-header-hamburger-trigger {
-			display: none !important;
-		}
-
-		.ahg-header-row-content {
-			max-width: 1280px;
-			margin: 0 auto;
-			display: flex;
-			
-		}
-
-		.ahg-header-row-content .ahg-header-col-w4 {
-			flex-basis: 33%
-		}
-
-		.ahg-header-row-content .ahg-header-col-w6 {
-			flex-basis: 50%
-		}
-
-		.ahg-header-row-content .ahg-header-col-w8 {
-			flex-basis: 67%
-		}
-
-		.ahg-header-row-content .ahg-header-col-w12 {
-			flex-basis: 100%
-		}
-
-		.ahg-header-icon .ahg-header-icon-label-right a,
-		.ahg-header-menu ul li a {
-			text-decoration: none
-		}
-
-		.ahg-header-image {
-			overflow: auto;
-
-		}
-
-		.ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1,
-		.ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1,
-		.ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 {
-			width: 100%
-		}
-
-		.ahg-header-menu ul {
-			margin: 0;
-			padding: 0
-		}
-
-		.ahg-header-icon {
-			display: inline-block;
-			vertical-align: middle;
-		}
-
-		.ahg-header-icon .ahg-header-content {
-			display: flex;
-			align-items: center
-		}
-
-		.ahg-header-image img {
-			display: block;
-			width: 100%
-		}
-
-		.ahg-header-menu .ahg-header-hamburger-controls {
-			cursor: pointer;
-			display: inline-block;
-			position: relative
-		}
-
-		.ahg-header-menu .ahg-header-hamburger-controls span {
-			display: block;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			background-size: 100%;
-			transition: .12s ease-in-out
-		}
-
-		.ahg-header-menu ul {
-			list-style-type: none
-		}
-
-		.ahg-header-menu ul.ahg-header-horizontal li {
-			display: inline-block
-		}
-
-		.ahg-header-row-1 .ahg-header-row-content,
-		.ahg-header-row-2 .ahg-header-row-content,
-		.ahg-header-row-3 .ahg-header-row-content,
-		.ahg-header-row-4 .ahg-header-row-content,
-		.ahg-header-row-5 .ahg-header-row-content {
-			background-repeat: no-repeat;
-			border-radius: 0;
-			color: #000000
-		}
-
-		.ahg-header-row-1 .ahg-header-col-1,
-		.ahg-header-row-5 .ahg-header-col-1,
-		.ahg-header-row-6 .ahg-header-col-1 {
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
-
-		.ahg-header-row-2 .ahg-header-col-1 {
-			padding: 45px 20px;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			border-radius: 0
-		}
-
-		.ahg-header-row-2 .ahg-header-col-2 {
-			padding-right: 10px;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			border-radius: 0
-		}
-
-		.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 {
-			padding-bottom: 5px
-		}
-
-		.ahg-header-row-3 .ahg-header-col-1,
-		.ahg-header-row-4 .ahg-header-col-1 {
-			padding-bottom: 25px;
-			padding-left: 10px;
-			padding-top: 25px;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			border-radius: 0
-		}
-
-		.ahg-header-row-3 .ahg-header-col-2,
-		.ahg-header-row-4 .ahg-header-col-2 {
-			padding-bottom: 5px;
-			padding-right: 10px;
-			padding-top: 25px;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			border-radius: 0
-		}
-
-		.ahg-header-row-6 .ahg-header-row-content {
-			color: #000000
-		}
-
-		.ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 {
-			color: #1e0e4b;
-			font-family: Inter, sans-serif;
-			font-size: 15px;
-			padding-bottom: 5px;
-			padding-top: 5px;
-			text-align: center
-		}
-
-		.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 li {
-			padding-bottom: 10px;
-			padding-left: 10px;
-			padding-top: 10px
-		}
-
-		.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 li a,
-		.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 li a,
-		.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 li a {
-		color: #000;
-		}
-
-		@media (max-width:800px) {
-			.desktop-display {
-				display: block !important
-			}
-
-			.tablet-display {
-				display: none !important
-			}
-			
-			.ahg-header-menu ul.with-ahg-header-hamburger {
-				display: none;
-				padding: 5px 0;
-				position: relative;
-				top: -4px
-			}
-
-			.ahg-header-menu ul.with-ahg-header-hamburger li {
-				display: block;
-				text-align: center
-			}
-
-			.ahg-header-menu ul.with-ahg-header-hamburger li a {
-				text-decoration: none
-			}
-
-			.ahg-header-menu ul.with-ahg-header-hamburger span,
-			.tablet-display {
-				display: none
-			}
-		
-
-			#ahg-header-hamburger-memu-r1c1m0:checked~ul,
-			#ahg-header-hamburger-memu-r2c1m0:checked~ul,
-			#ahg-header-hamburger-memu-r3c1m0:checked~ul,
-			.ahg-header-row-content:not(.no_stack) {
-				display: block;
-			
-			}
-
-.ahg-header-row-3 {
-padding-bottom: 5rem;
-
-}
-
-.ahg-header-row-3 .ahg-header-col-1 {
-justify-content: flex-start;
-margin-top: 1.5rem;
-}
-			.ahg-header-row-3 .ahg-header-col-1,
-			.ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1,
-			.ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 {
-				padding: 0 10px !important;
-	
-			}
-			.ahg-header-row-3 col .ahg-header-col-2 {
-				height: 0rem;
-			}
-
-			.ahg-header-row-4 .ahg-header-col-1 {
-				padding: 15px 10px 0 !important
-			}
-
-			.ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1 {
-				padding: 10px !important
-			}
-
-			.ahg-header-row-2 .ahg-header-col-1 .ahg-header-block-1 img,
-			.ahg-header-row-4 .ahg-header-col-1 .ahg-header-block-1 img {
-				float: none !important;
-				margin: 0 auto !important
-			}
-
-			.ahg-header-row-3 .ahg-header-col-1 .ahg-header-block-1 img {
-				float: left !important;
-				margin: auto !important
-			}
-
-			.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls,
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls {
-				width: 48px;
-				height: 48px;
-				background-color: #ffffff;
-				border-radius: 0
-			}
-
-			.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span,
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span {
-				width: 24px;
-				height: 24px
-			}
-
-			.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open,
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open,
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-open {
-				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjODI4MjgyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgd2lkdGg9IjY0IiB5PSI1MiIvPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB3aWR0aD0iNjQiIHk9IjI2Ii8+PC9nPjwvc3ZnPg==");
-				transform: translate(-50%, -50%) scaleY(1)
-			}
-
-			.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close,
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close,
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span.ahg-header-hamburger-close {
-				background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY0IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjODI4MjgyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IGhlaWdodD0iMTIiIHJ4PSI2IiB0cmFuc2Zvcm09Im1hdHJpeCgtLjcwNzEwNjc4IC0uNzA3MTA2NzggLjcwNzEwNjc4IC0uNzA3MTA2NzggMzEuOTkxMzc4IDc3LjIzNDAxOSkiIHdpZHRoPSI4MiIgeD0iLTkuMDA4NjIyIiB5PSIyNS45OTEzNzgiLz48cmVjdCBoZWlnaHQ9IjEyIiByeD0iNiIgdHJhbnNmb3JtPSJtYXRyaXgoLS43MDcxMDY3OCAuNzA3MTA2NzggLS43MDcxMDY3OCAtLjcwNzEwNjc4IDc3LjgxOTgwNiAzMi4yMzQwMTkpIiB3aWR0aD0iODIiIHg9Ii04Ljc2NTk4MSIgeT0iMjYuMjM0MDE5Ii8+PC9nPjwvc3ZnPg==");
-				transform: translate(-50%, -50%) scaleY(0)
-			}
-
-			.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger,
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger,
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger {
-				background-color: #ffffff
-			}
-
-			.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li,
-			.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li a,
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li,
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li a,
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li,
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 ul.with-ahg-header-hamburger li a {
-			}
-
-			#ahg-header-hamburger-memu-r1c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-open,
-			#ahg-header-hamburger-memu-r2c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-open,
-			#ahg-header-hamburger-memu-r3c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-open {
-				transform: translate(-50%, -50%) scaleY(0)
-			}
-
-			#ahg-header-hamburger-memu-r1c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-close,
-			#ahg-header-hamburger-memu-r2c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-close,
-			#ahg-header-hamburger-memu-r3c1m0:checked~.ahg-header-hamburger-controls .ahg-header-hamburger-close {
-				transform: translate(-50%, -50%) scaleY(1)
-			}
-
-			.ahg-header-row-2 .ahg-header-col-2 .ahg-header-block-1 {
-				padding: 0 !important;
-				text-align: right !important
-			}
-
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls {
-				width: 36px;
-				height: 36px;
-				background-color: #ffffff;
-				border-radius: 0
-			}
-
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 .ahg-header-hamburger-controls span {
-				width: 18px;
-				height: 18px
-			}
-
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 {
-				padding: 0 0 20px !important;
-				text-align: right !important
-			}
-
-			.ahg-header-row-3 .ahg-header-col-2 .ahg-header-block-1 li,
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 li {
-				font-size: 12px !important;
-				line-height: auto !important
-			}
-
-			.ahg-header-row-4 .ahg-header-col-2 .ahg-header-block-1 {
-				padding: 0 0 15px !important;
-				text-align: center !important
-			}
-		}
-
-		.ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon-image {
-			padding: 5px 6px 5px 5px
-		}
-
-		.ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon:not(.ahg-header-icon-first) .ahg-header-content {
-			margin-left: 0
-		}
-
-		.ahg-header-row-6 .ahg-header-col-1 .ahg-header-block-1 .ahg-header-icon::not(.ahg-header-icon-last) .ahg-header-content {
-			margin-right: 0
-		}
-		@media (max-width:400px) {
-			.desktop-display {
-				display: block !important
-			}
-			.mobile-display {
-				display: none !important
-			}
-			
-		}
-	</style>
-
-</head>
 
 <body>
-	<div class="ahg-header-page-container">
-		<div class="ahg-header-row ahg-header-row-1">
-			<div class="ahg-header-row-content">
-				<div class="ahg-header-col ahg-header-col-1 ahg-header-col-w12">
-					<div class="ahg-header-block ahg-header-block-1 ahg-header-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="mobile-display tablet-display">
-		<div class="ahg-header-row ahg-header-row-2">
-			<div class="ahg-header-row-content no_stack">
-				<div class="ahg-header-col ahg-header-col-1 ahg-header-col-w4">
-					<div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group" class="ahg-header-fixedwidth" src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w" style="max-width:212px;" /></div>
-				</div>
-				<div class="ahg-header-col ahg-header-col-2 ahg-header-col-w8">
-					<div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
-						<nav class="ahg-header-menu header-nav "><input class="ahg-header-hamburger-trigger" id="ahg-header-hamburger-memu-r1c1m0" type="checkbox" /><label class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r1c1m0"><span class="ahg-header-hamburger-open"></span><span class="ahg-header-hamburger-close"></span></label>
-							<ul class="ahg-header-horizontal with-ahg-header-hamburger">
-								<li><a href="https://www.aparium.com/hotels" target="_self" class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a></li>
-								<li><a href="https://www.aparium.com/restaurants-bars" target="_self" class="header-nav-item header-nav-item-restaurants" title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
-								<li><a href="https://www.aparium.com/meetings-events" target="_self" class="header-nav-item header-nav-item-meetings" title="Meetings &amp; Events">Meetings &amp; Events</a></li>
-								<li><a href="https://www.aparium.com/about" target="_self" title="About" class="header-nav-item header-nav-item-about">About</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-		<div class="desktop-display mobile-display">
-		<div class="ahg-header-row ahg-header-row-3">
-			<div class="ahg-header-row-content no_stack">
-				<div class="ahg-header-col ahg-header-col-1 ahg-header-col-w6">
-					<div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group" class="ahg-header-fixedwidth" src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w" style="max-width:126px;" /></div>
-				</div>
-				<div class="ahg-header-col ahg-header-col-2 ahg-header-col-w6">
-					<div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
-						<nav class="ahg-header-menu header-nav"><input class="ahg-header-hamburger-trigger" id="ahg-header-hamburger-memu-r2c1m0" type="checkbox" /><label class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r2c1m0"><span class="ahg-header-hamburger-open"></span><span class="ahg-header-hamburger-close"></span></label>
-							<ul class="ahg-header-horizontal with-ahg-header-hamburger">
-								<li><a href="https://www.aparium.com/hotels" target="_self" class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a></li>
-								<li><a href="https://www.aparium.com/restaurants-bars" target="_self" class="header-nav-item header-nav-item-restaurants" title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
-								<li><a href="https://www.aparium.com/meetings-events" target="_self" class="header-nav-item header-nav-item-meetings" title="Meetings &amp; Events">Meetings &amp; Events</a></li>
-								<li><a href="https://www.aparium.com/about" target="_self" title="About" class="header-nav-item header-nav-item-about">About</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-		<div class="desktop-display tablet-display">
-		<div class="ahg-header-row ahg-header-row-4">
-			<div class="ahg-header-row-content">
-				<div class="ahg-header-col ahg-header-col-1 ahg-header-col-w8">
-					<div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group" class="ahg-header-fixedwidth" src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w" style="max-width:210px;" /></div>
-				</div>
-				<div class="ahg-header-col ahg-header-col-2 ahg-header-col-w4">
-					<div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
-						<nav class="ahg-header-menu header-nav"><input class="ahg-header-hamburger-trigger" id="ahg-header-hamburger-memu-r3c1m0" type="checkbox" /><label class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r3c1m0"><span class="ahg-header-hamburger-open"></span><span class="ahg-header-hamburger-close"></span></label>
-							<ul class="ahg-header-horizontal with-ahg-header-hamburger">
-								<li><a href="https://www.aparium.com/hotels" target="_self" class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a></li>
-								<li><a href="https://www.aparium.com/restaurants-bars" target="_self" class="header-nav-item header-nav-item-restaurants" title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
-								<li><a href="https://www.aparium.com/meetings-events" target="_self" class="header-nav-item header-nav-item-meetings" title="Meetings &amp; Events">Meetings &amp; Events</a></li>
-								<li><a href="https://www.aparium.com/about" target="_self" title="About" class="header-nav-item header-nav-item-about">About</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-				</div>
-		<div class="ahg-header-row ahg-header-row-5">
-			<div class="ahg-header-row-content">
-				<div class="ahg-header-col ahg-header-col-1 ahg-header-col-w12">
-					<div class="ahg-header-block ahg-header-block-1 ahg-header-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-					<div class="ahg-header-block ahg-header-block-2 ahg-header-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-
-</html>
+    <div class="ahg-header-page-container">
+        <div class="ahg-header-row ahg-header-row-1">
+            <div class="ahg-header-row-content">
+                <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w12">
+                    <div class="ahg-header-block ahg-header-block-1 ahg-header-spacer">
+                        <div class="spacer" style="height:60px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-display tablet-display">
+            <div class="ahg-header-row ahg-header-row-2">
+                <div class="ahg-header-row-content no_stack">
+                    <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w4">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group"
+                                class="ahg-header-fixedwidth"
+                                src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w"
+                                style="max-width:212px;"></div>
+                    </div>
+                    <div class="ahg-header-col ahg-header-col-2 ahg-header-col-w8">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
+                            <nav class="ahg-header-menu header-nav "><input class="ahg-header-hamburger-trigger"
+                                    id="ahg-header-hamburger-memu-r1c1m0" type="checkbox"><label
+                                    class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r1c1m0"><span
+                                        class="ahg-header-hamburger-open"></span><span
+                                        class="ahg-header-hamburger-close"></span></label>
+                                <ul class="ahg-header-horizontal with-ahg-header-hamburger">
+                                    <li><a href="https://www.aparium.com/hotels" target="_self"
+                                            class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a>
+                                    </li>
+                                    <li><a href="https://www.aparium.com/restaurants-bars" target="_self"
+                                            class="header-nav-item header-nav-item-restaurants"
+                                            title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
+                                    <li><a href="https://www.aparium.com/meetings-events" target="_self"
+                                            class="header-nav-item header-nav-item-meetings"
+                                            title="Meetings &amp; Events">Meetings &amp; Events</a></li>
+                                    <li><a href="https://www.aparium.com/about" target="_self" title="About"
+                                            class="header-nav-item header-nav-item-about">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desktop-display mobile-display">
+            <div class="ahg-header-row ahg-header-row-3">
+                <div class="ahg-header-row-content no_stack">
+                    <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w6">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group"
+                                class="ahg-header-fixedwidth"
+                                src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w"
+                                style="max-width:126px;"></div>
+                    </div>
+                    <div class="ahg-header-col ahg-header-col-2 ahg-header-col-w6">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
+                            <nav class="ahg-header-menu header-nav"><input class="ahg-header-hamburger-trigger"
+                                    id="ahg-header-hamburger-memu-r2c1m0" type="checkbox"><label
+                                    class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r2c1m0"><span
+                                        class="ahg-header-hamburger-open"></span><span
+                                        class="ahg-header-hamburger-close"></span></label>
+                                <ul class="ahg-header-horizontal with-ahg-header-hamburger">
+                                    <li><a href="https://www.aparium.com/hotels" target="_self"
+                                            class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a>
+                                    </li>
+                                    <li><a href="https://www.aparium.com/restaurants-bars" target="_self"
+                                            class="header-nav-item header-nav-item-restaurants"
+                                            title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
+                                    <li><a href="https://www.aparium.com/meetings-events" target="_self"
+                                            class="header-nav-item header-nav-item-meetings"
+                                            title="Meetings &amp; Events">Meetings &amp; Events</a></li>
+                                    <li><a href="https://www.aparium.com/about" target="_self" title="About"
+                                            class="header-nav-item header-nav-item-about">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desktop-display tablet-display">
+            <div class="ahg-header-row ahg-header-row-4">
+                <div class="ahg-header-row-content">
+                    <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w8">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group"
+                                class="ahg-header-fixedwidth"
+                                src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w"
+                                style="max-width:210px;"></div>
+                    </div>
+                    <div class="ahg-header-col ahg-header-col-2 ahg-header-col-w4">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
+                            <nav class="ahg-header-menu header-nav"><input class="ahg-header-hamburger-trigger"
+                                    id="ahg-header-hamburger-memu-r3c1m0" type="checkbox"><label
+                                    class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r3c1m0"><span
+                                        class="ahg-header-hamburger-open"></span><span
+                                        class="ahg-header-hamburger-close"></span></label>
+                                <ul class="ahg-header-horizontal with-ahg-header-hamburger">
+                                    <li><a href="https://www.aparium.com/hotels" target="_self"
+                                            class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a>
+                                    </li>
+                                    <li><a href="https://www.aparium.com/restaurants-bars" target="_self"
+                                            class="header-nav-item header-nav-item-restaurants"
+                                            title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
+                                    <li><a href="https://www.aparium.com/meetings-events" target="_self"
+                                            class="header-nav-item header-nav-item-meetings"
+                                            title="Meetings &amp; Events">Meetings &amp; Events</a></li>
+                                    <li><a href="https://www.aparium.com/about" target="_self" title="About"
+                                            class="header-nav-item header-nav-item-about">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ahg-header-row ahg-header-row-5">
+            <div class="ahg-header-row-content">
+                <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w12">
+                    <div class="ahg-header-block ahg-header-block-1 ahg-header-spacer">
+                        <div class="spacer" style="height:60px;"></div>
+                    </div>
+                    <div class="ahg-header-block ahg-header-block-2 ahg-header-spacer">
+                        <div class="spacer" style="height:60px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
