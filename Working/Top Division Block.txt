@@ -1,0 +1,130 @@
+<body>
+    <div class="ahg-header-page-container">
+        <div class="ahg-header-row ahg-header-row-1">
+            <div class="ahg-header-row-content">
+                <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w12">
+                    <div class="ahg-header-block ahg-header-block-1 ahg-header-spacer">
+                        <div class="spacer" style="height:60px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-display tablet-display">
+            <div class="ahg-header-row ahg-header-row-2">
+                <div class="ahg-header-row-content no_stack">
+                    <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w4">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group"
+                                class="ahg-header-fixedwidth"
+                                src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w"
+                                style="max-width:212px;"></div>
+                    </div>
+                    <div class="ahg-header-col ahg-header-col-2 ahg-header-col-w8">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
+                            <nav class="ahg-header-menu header-nav "><input class="ahg-header-hamburger-trigger"
+                                    id="ahg-header-hamburger-memu-r1c1m0" type="checkbox"><label
+                                    class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r1c1m0"><span
+                                        class="ahg-header-hamburger-open"></span><span
+                                        class="ahg-header-hamburger-close"></span></label>
+                                <ul class="ahg-header-horizontal with-ahg-header-hamburger">
+                                    <li><a href="https://www.aparium.com/hotels" target="_self"
+                                            class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a>
+                                    </li>
+                                    <li><a href="https://www.aparium.com/restaurants-bars" target="_self"
+                                            class="header-nav-item header-nav-item-restaurants"
+                                            title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
+                                    <li><a href="https://www.aparium.com/meetings-events" target="_self"
+                                            class="header-nav-item header-nav-item-meetings"
+                                            title="Meetings &amp; Events">Meetings &amp; Events</a></li>
+                                    <li><a href="https://www.aparium.com/about" target="_self" title="About"
+                                            class="header-nav-item header-nav-item-about">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desktop-display mobile-display">
+            <div class="ahg-header-row ahg-header-row-3">
+                <div class="ahg-header-row-content no_stack">
+                    <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w6">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group"
+                                class="ahg-header-fixedwidth"
+                                src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w"
+                                style="max-width:126px;"></div>
+                    </div>
+                    <div class="ahg-header-col ahg-header-col-2 ahg-header-col-w6">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
+                            <nav class="ahg-header-menu header-nav"><input class="ahg-header-hamburger-trigger"
+                                    id="ahg-header-hamburger-memu-r2c1m0" type="checkbox"><label
+                                    class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r2c1m0"><span
+                                        class="ahg-header-hamburger-open"></span><span
+                                        class="ahg-header-hamburger-close"></span></label>
+                                <ul class="ahg-header-horizontal with-ahg-header-hamburger">
+                                    <li><a href="https://www.aparium.com/hotels" target="_self"
+                                            class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a>
+                                    </li>
+                                    <li><a href="https://www.aparium.com/restaurants-bars" target="_self"
+                                            class="header-nav-item header-nav-item-restaurants"
+                                            title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
+                                    <li><a href="https://www.aparium.com/meetings-events" target="_self"
+                                            class="header-nav-item header-nav-item-meetings"
+                                            title="Meetings &amp; Events">Meetings &amp; Events</a></li>
+                                    <li><a href="https://www.aparium.com/about" target="_self" title="About"
+                                            class="header-nav-item header-nav-item-about">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desktop-display tablet-display">
+            <div class="ahg-header-row ahg-header-row-4">
+                <div class="ahg-header-row-content">
+                    <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w8">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-image"><img alt="Aparium Hotel Group"
+                                class="ahg-header-fixedwidth"
+                                src="https://images.squarespace-cdn.com/content/v1/5d711e039b503d0001bc2e2b/1567697009334-HRAS94Q53CB5A6H19YQI/270x60_300dpi_000.png?format=750w"
+                                style="max-width:210px;"></div>
+                    </div>
+                    <div class="ahg-header-col ahg-header-col-2 ahg-header-col-w4">
+                        <div class="ahg-header-block ahg-header-block-1 ahg-header-menu">
+                            <nav class="ahg-header-menu header-nav"><input class="ahg-header-hamburger-trigger"
+                                    id="ahg-header-hamburger-memu-r3c1m0" type="checkbox"><label
+                                    class="ahg-header-hamburger-controls" for="ahg-header-hamburger-memu-r3c1m0"><span
+                                        class="ahg-header-hamburger-open"></span><span
+                                        class="ahg-header-hamburger-close"></span></label>
+                                <ul class="ahg-header-horizontal with-ahg-header-hamburger">
+                                    <li><a href="https://www.aparium.com/hotels" target="_self"
+                                            class="header-nav-item header-nav-item-hotels" title="Hotels">Hotels</a>
+                                    </li>
+                                    <li><a href="https://www.aparium.com/restaurants-bars" target="_self"
+                                            class="header-nav-item header-nav-item-restaurants"
+                                            title="Restaurants &amp; Bars">Restaurants &amp; Bars</a></li>
+                                    <li><a href="https://www.aparium.com/meetings-events" target="_self"
+                                            class="header-nav-item header-nav-item-meetings"
+                                            title="Meetings &amp; Events">Meetings &amp; Events</a></li>
+                                    <li><a href="https://www.aparium.com/about" target="_self" title="About"
+                                            class="header-nav-item header-nav-item-about">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ahg-header-row ahg-header-row-5">
+            <div class="ahg-header-row-content">
+                <div class="ahg-header-col ahg-header-col-1 ahg-header-col-w12">
+                    <div class="ahg-header-block ahg-header-block-1 ahg-header-spacer">
+                        <div class="spacer" style="height:60px;"></div>
+                    </div>
+                    <div class="ahg-header-block ahg-header-block-2 ahg-header-spacer">
+                        <div class="spacer" style="height:60px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
